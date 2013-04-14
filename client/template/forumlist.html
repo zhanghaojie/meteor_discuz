@@ -1,0 +1,19 @@
+<template name="tpl_forumlist">
+<div class="container">
+	<div class="thumbnails">
+		{{#each forums}}
+			{{> tpl_forum_item}}
+		{{/each}}
+	</div>
+</div>
+</template>
+
+<template name="tpl_forum_item">
+<div class="span4">
+  <div class="well thumbnail">
+	<div class="text-center">
+	  <a href="#/forum/{{_id}}"><img src="forum_icon.jpg"> <strong>{{name}}</strong></a>
+	</div>
+  </div>
+</div>
+</template>

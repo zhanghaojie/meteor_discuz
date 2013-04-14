@@ -1,0 +1,83 @@
+<template name="tpl_header">
+<div class="container">
+{{> tpl_register}}
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">	
+			{{> tpl_login}}
+		</div>
+	</div>
+</div>
+{{> tpl_logo}}
+{{> tpl_navigation_bar}}
+</div>
+</template>
+
+<template name="tpl_register">
+<div id="dlg_register" class="modal hide fade">
+		<div class="modal-header">
+			<a class="close" data-dismiss="modal">x</a>
+			<h3>注册</h3>
+		</div>
+	<form>
+		<div class="modal-body">
+			<div class="control-group">
+				<label class="control-label" for="user_name">用户名：</label>
+				<div class="controls">
+					<input id="user_name" class="input-xlarge" type="text">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="user_name">密码：</label>
+				<div class="controls">
+					<input id="password" class="input-xlarge" type="password">
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-footer">
+			<a href="#" class="btn" data-dismiss="modal">关闭</a> 
+			<a id="btn_reg_submit" href="#" class="btn btn-primary" type="submit">注册</a>
+		</div>
+	</form>
+
+</div>
+</template>
+
+
+<template name="tpl_login">
+<form class="form-inline navbar-form">
+				<!-- <input class="input-medium" id="login_username" type="text"/> -->
+				<!-- <input class="input-medium" id="login_password" type="password"/> -->
+				<!-- <button id="btn_login" class="btn btn-small">登陆</button> -->
+				{{loginButtons}}
+				<!-- <button class="btn btn-small" href="#dlg_register" data-toggle="modal" >注册</button> -->
+			</form>
+</template>
+
+
+<template name="tpl_user_panel">
+	<div>
+		{{loginButtons}}
+		<button class="btn btn-small">注销</button>
+	</div> 
+</template>
+
+
+<template name="tpl_navigation_bar">
+<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container">
+				<ul id="main_nav" class="nav">
+					<li><a href="forum/123.html">论坛首页</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</template>
+
+
+<template name="tpl_logo">
+<div class="container bg_header">
+</div>
+</template>

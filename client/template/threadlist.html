@@ -1,0 +1,18 @@
+<template name="tpl_threadlist">
+	<div class="container">
+		<table class="table table-striped table-bordered">
+			{{#with currentForum}}
+			<thead> {{name}} </thead>
+			<tbody>
+				{{#each threads}}
+				<tr>
+					<td>
+						<a href="#/thread/{{_id}}">{{title}}
+					</td>
+				</tr>
+				{{/each}}
+			</tbody>
+			{{/with}}
+		</table>
+	</div>
+</template>
