@@ -1,5 +1,1 @@
 
-
-Accounts.config({
-	sendVerificationEmail: false
-})

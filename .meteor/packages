@@ -4,9 +4,10 @@
 # but you can also edit it by hand.
 
 bootstrap
-backbone
-handlebars
 less
 accounts-ui
 accounts-password
 accounts-base
+jquery-history
+handlebars
+jquery-waypoints

@@ -1,20 +1,24 @@
 <head>
-  <title>discuz_meteor</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>discuz_meteor</title>
 </head>
 
 <body>
-	{{> tpl_index}}
+	{{> tpl_header}}
+	<div id="content" class="container">
+	</div>
+	{{> tpl_footer}}
 </body>
 
 <template name="tpl_index">
-	<div id="header">
+	<div id="header" class="navbar navbar-fixed-top">
 		{{> tpl_header}}
 	</div>
 
-	<div id="content">
+	<div id="content" class="container">
 	</div>
 
-	<div id="footer">
+	<div id="footer" class="container">
 		{{> tpl_footer}}
 	</div>
 </template>

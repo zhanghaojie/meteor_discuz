@@ -1,10 +1,10 @@
 
 Meteor.startup(function() {
-	init();
+	//init();
 	Meteor.autorun(function() {
 		if (Meteor.userId()) {
 			Meteor.call("keepalive");
-			Meteor.setTimeout(arguments.callee, 3000);
+			Meteor.setTimeout(arguments.callee, 7000);
 		}
 	})
 });

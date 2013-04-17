@@ -3,16 +3,38 @@
 		<table class="table table-striped table-bordered">
 			{{#with currentForum}}
 			<thead> {{name}} </thead>
+			{{/with}}
 			<tbody>
 				{{#each threads}}
 				<tr>
 					<td>
-						<a href="#/thread/{{_id}}">{{title}}
+						<a href="#/thread/{{_id}}">{{subject}}
+							--{{created_time}}
 					</td>
 				</tr>
 				{{/each}}
 			</tbody>
-			{{/with}}
 		</table>
+		<div id="loading_div"></div>
 	</div>
+	{{> tpl_post_thread}}
+</template>
+
+<template name="tpl_editor">
+	<textarea id="txt_post_content" rows=7 class="span12"></textarea>
+</template>
+
+<template name="tpl_post_thread">
+<div class="row">
+	<div class="span12">
+		<label>标题：</label>
+		<input id="post_subject" class="input-xlarge" type="text">
+	</div>
+	<div class="span12">
+		{{> tpl_editor}}
+	</div>
+	<div class="span12">
+		<button id="btn_post_thread" class="btn btn-primary">发表主题</button>
+	</div>
+</div>
 </template>

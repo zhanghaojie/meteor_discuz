@@ -1,17 +1,47 @@
 <template name="tpl_header">
-<div class="container">
 {{> tpl_register}}
-<div class="navbar navbar-fixed-top">
+<div id="header" class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
-		<div class="container">	
-			{{> tpl_login}}
+		<div class="container">
+			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	        </button>
+			<a class="brand" href="#">Logo</a>
+			
+			<div class="nav-collapse collapse">
+				<div>
+					<ul class="nav">
+						<li><a href="#/aa.html">首页</a></li>
+						<li><a href="#/bb.html">论坛</a></li>
+					</ul>
+				</div>
+				<div class="pull-right">
+					{{#if isLogin}}
+						{{> tpl_user_panel}}
+					{{else}}
+						{{> tpl_login}}
+					{{/if}}
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
-{{> tpl_logo}}
-{{> tpl_navigation_bar}}
+</template>
+
+<template name="tpl_login">
+<form action="#" class="form-inline navbar-form">
+	<div class="control-group inline">
+		<input class="input-medium" id="login_username" placeholder="Email" type="email"/>
+	</div>
+	<input class="input-medium" id="login_password" placeholder="Password" type="password"/>
+	<button id="btn_login" class="btn btn-small">登陆</button>
+	<button id="btn_register" class="btn btn-small" href="#dlg_register" data-toggle="modal" >注册</button>
+</form>
 </div>
 </template>
+
 
 <template name="tpl_register">
 <div id="dlg_register" class="modal hide fade">
@@ -22,15 +52,15 @@
 	<form>
 		<div class="modal-body">
 			<div class="control-group">
-				<label class="control-label" for="user_name">用户名：</label>
+				<label class="control-label" for="reg_user_name" >用户名：</label>
 				<div class="controls">
-					<input id="user_name" class="input-xlarge" type="text">
+					<input id="reg_user_name" class="input-xlarge" placeholder="Email" type="email">
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="user_name">密码：</label>
+				<label class="control-label" for="reg_password">密码：</label>
 				<div class="controls">
-					<input id="password" class="input-xlarge" type="password">
+					<input id="reg_password" class="input-xlarge" placeholder="Password" type="password">
 				</div>
 			</div>
 		</div>
@@ -44,22 +74,9 @@
 </div>
 </template>
 
-
-<template name="tpl_login">
-<form class="form-inline navbar-form">
-				<!-- <input class="input-medium" id="login_username" type="text"/> -->
-				<!-- <input class="input-medium" id="login_password" type="password"/> -->
-				<!-- <button id="btn_login" class="btn btn-small">登陆</button> -->
-				{{loginButtons}}
-				<!-- <button class="btn btn-small" href="#dlg_register" data-toggle="modal" >注册</button> -->
-			</form>
-</template>
-
-
 <template name="tpl_user_panel">
 	<div>
 		{{loginButtons}}
-		<button class="btn btn-small">注销</button>
 	</div> 
 </template>
 

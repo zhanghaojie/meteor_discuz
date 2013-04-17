@@ -6,7 +6,7 @@ Template.tpl_viewthread.currentThread = function() {
 }
 
 Template.tpl_viewthread.posts = function() {
-	var cursor = postCollection.find();
+	var cursor = postCollection.find({tid: Session.get("currentThreadId")});
 	return cursor;
 }
 
@@ -14,7 +14,14 @@ Template.tpl_viewthread.events({
 	"click #submit": function (event) {
 		var postInput = $("#post_input");
 		var postText = postInput.val();
-		postCollection.insert({"content": postText, "thread_id": Session.get("currentThreadId")});
+		postCollection.insert({
+			"fid": Session.get("currentForumId"),
+			"tid": Session.get("currentThreadId"),
+			"author_id": Meteor.userId(),
+			"author": Meteor.user().emails[0].address,
+			"message": postText,
+		});
+		
 		postInput.val("");
 	},
 
