@@ -49,6 +49,9 @@ Template.tpl_post_thread.events({
 				lastposter: Meteor.user().emails[0].address
 			})
 		}
+		else {
+			
+		}
 	}
 })
 

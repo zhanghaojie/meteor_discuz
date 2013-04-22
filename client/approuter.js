@@ -1,40 +1,4 @@
-/*
-AppRouter = Backbone.Router.extend({
-	routes: {
-		"forum/:request": "viewForum",
-		"thread/:request": "viewThread",
-		"*actions": "defaultRoute"
-	},
-})
- */
 
-/*
-init = function () {
- 	appRouter = new AppRouter();
-
-	appRouter.on("route:defaultRoute", function(url) {
-		console.log("default route:" + url);
-		var contentDiv = $("#content");
-		contentDiv.html(Meteor.render(Template.tpl_forumlist));
-	});
-
-	appRouter.on("route:viewForum", function(forumId) {
-		console.log("route view forum : " + forumId);
-		Session.set("currentForumId", forumId);
-		var contentDiv = $("#content");
-		contentDiv.html(Meteor.render(Template.tpl_threadlist));
-	});
-
-	appRouter.on("route:viewThread", function(threadId) {
-		console.log("route view thread : ", threadId);
-		Session.set("currentThreadId", threadId);
-		var contentDiv = $("#content");
-		contentDiv.html(Meteor.render(Template.tpl_viewthread));
-	});
-
-	Backbone.history.start();
- }
- */
 
 AppRouter = function(routes) {
 	self = this;

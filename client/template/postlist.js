@@ -14,15 +14,17 @@ Template.tpl_viewthread.events({
 	"click #submit": function (event) {
 		var postInput = $("#post_input");
 		var postText = postInput.val();
-		postCollection.insert({
-			"fid": Session.get("currentForumId"),
-			"tid": Session.get("currentThreadId"),
-			"author_id": Meteor.userId(),
-			"author": Meteor.user().emails[0].address,
-			"message": postText,
-		});
-		
-		postInput.val("");
+		if (postText) {
+			var curThread = Template.tpl_viewthread.currentThread();
+			postCollection.insert({
+				"fid": curThread.fid,
+				"tid": curThread._id,
+				"author_id": Meteor.userId(),
+				"author": Meteor.user().emails[0].address,
+				"message": postText,
+			});
+			postInput.val("");
+		}
 	},
 
 	"click #invite": function (event) {
