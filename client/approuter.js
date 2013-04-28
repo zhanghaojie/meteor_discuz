@@ -53,8 +53,8 @@ Meteor.startup (function() {
 	var appRouter = new AppRouter({
 		"rootRoute": /^\/$/gi,
 		"forumRoute": /^\/forum\/(\S+)/gi,
-		"threadRoute": /^\/thread\/(\S+)/gi
-		//"otherRoute": /(.*)/
+		"threadRoute": /^\/thread\/(\S+)/gi,
+		"testRoute": /^\/test\/(\S*)/gi
 	})
 
 	appRouter.on("forumRoute", function(forumId) {
@@ -75,6 +75,11 @@ Meteor.startup (function() {
 		console.log("default route:");
 		var contentDiv = $("#content");
 		contentDiv.html(Meteor.render(Template.tpl_forumlist));
+	})
+
+	appRouter.on("testRoute", function() {
+		var contentDiv = $("#content");
+		contentDiv.html(Meteor.render(Template.tpl_test))
 	})
 
 	appRouter.defaultRoute = function(path) {

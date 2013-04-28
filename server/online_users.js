@@ -12,7 +12,7 @@ Meteor.startup(function() {
 	Meteor.onlineUser = Meteor.onlineUser || {};
 
 	Meteor.methods ({
-		keepalive: function(params) {
+		keepalive: function() {
 			var userId = Meteor.userId();
 			if (!userId) return false;
 			if (!Meteor.onlineUser[userId]) {

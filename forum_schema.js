@@ -54,7 +54,7 @@ UserProfile = [
 	"score",		//积分
 	"group_id",		//用户所属组
 	"threads",		//发表的主题
-	"friends",		//用户好友IDS
+	"friends"		//用户好友IDS
 ];
 
 Group = [
