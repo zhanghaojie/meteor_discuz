@@ -17,26 +17,21 @@ Template.tpl_threadlist.currentForum = function() {
 	return cursor;
 }
 
-Template.tpl_threadlist.created = function() {
-	console.log("tpl_threadlist.created");
-}
-
 Template.tpl_threadlist.rendered = function() {
 	$('#loading_div').waypoint(function() {
   		console.log("abc");
   		Session.set("threadListLimit", Session.get("threadListLimit") + 10);
 	}, {offset: '99%'});
-	console.log("tpl_threadlist.rendered");
 }
 
-Template.tpl_threadlist.destroyed = function() {
-	console.log("tpl_threadlist.destroyed");
-}
+
 Template.tpl_post_thread.events({
 	"click #btn_post_thread": function(event) {
+		if (!Meteor.userId) {
+
+		}
 		var subject = $("#post_subject").val();
 		var content = $("#txt_post_content").val();
-		console.log(subject, content);
 		if (subject && content) {
 			threadCollection.insert({
 				fid: Session.get("currentForumId"),

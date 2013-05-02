@@ -117,7 +117,7 @@ Template.tpl_register.events({
 						}
 					}
 					else {
-						// TODO
+						// TODO  服务器返回错误
 					}
 				})
 			}

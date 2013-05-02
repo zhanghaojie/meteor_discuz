@@ -11,8 +11,6 @@ Template.tpl_forumlist.forumGroup = function() {
 	return cursor;
 };
 
-
-
 Template.tpl_forumlist.events ({
 	"change #attachment": function(event) {
 		var file = event.currentTarget.files[0];

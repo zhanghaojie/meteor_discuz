@@ -1,5 +1,5 @@
 
-Template.tpl_error.message = function() {
+Template.tpl_error_modal.message = function() {
 	return Session.get("error_message");
 }
 
