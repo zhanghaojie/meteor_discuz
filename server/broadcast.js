@@ -1,28 +1,36 @@
+/*
+var _broadcastListener = new Deps.Dependency;
 
+Meteor.publish("broadcast", function() {
+    var self = this;
+    next = 0;
+    next1 = 0;
+    Deps.autorun(function() {
+        _broadcastListener.depend();
+        self.added("broadcast", "broadcast_id" + next1++, {event: "fuck" + next++});
+    })
+
+})
+*/
 broadcastCollection = new Meteor.Collection("broadcast");
 
-// 在服务器启动时清空collection
-broadcastCollection.remove();
-
-
-broadcastCursor = broadcastCollection.find();
-broadcastCursor.observe({
-	added: function(event) {
-		console.log(event);
-		//处理所有服务器发送的广播
-		var eventName = event["event_name"];
-		Meteor.broadcast.handler[eventName]();
-	}
-});
-
 Meteor.publish("broadcast", function(userId) {
-	return broadcastCollection.find(
-		{$or:
-			[{"to": userId},
-			 {"to": "all"}]
-		});
-})
+    if (!userId) return;
+    var self = this;
+    var broadcastHandle = broadcastCollection.find({is_broadcast: false}).observe({
+        added: function(doc) {
+            var id = doc._id;
+            delete doc['_id'];
+            self.added("broadcast", id, doc);
+            broadcastCollection.update({_id: id}, {$set: {is_broadcast: true}});
+        }
+    })
+    this.ready();
 
+    this.onStop(function() {
+        broadcastHandle.stop();
+    })
+})
 
 // event_name:
 // from:
@@ -30,23 +38,16 @@ Meteor.publish("broadcast", function(userId) {
 // msg
 
 Meteor.methods({
-	broadcast: function(eventName, from, to, args) {
-		console.log(arguments);
-		if (Meteor.userId() !== from) {
-			console.log("unknow user from:" + from);
-		} 
-		if (to === "all" || Meteor.users.find({"_id": to}).count() == 1) {
-			broadcastCollection.insert({"event_name": eventName, "from": from, "to": to,"args": args}, function(error, eventId) {
-				if (!error) {
-					Meteor.defer(function() {
-						broadcastCollection.remove({"_id": eventId});
-					})
-				}
-			})
-		}
-		var util = Npm.require("util");
-		console.log(util.inspect(Meteor.default_server,{showHidden:true}));
-		return true;
+	broadcast: function(eventName, from, args) {
+        if (Meteor.userId() === from) {
+            broadcastCollection.insert({event_name: eventName, is_broadcast: false,
+                from: from, args: args})
+		    return true;
+        }
+        return false;
 	}
 })
+
+Meteor._printSentDDP = true;
+Meteor._printReceivedDDP = true;
 

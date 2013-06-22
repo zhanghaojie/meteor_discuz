@@ -6,6 +6,33 @@ function formateThreads(thread) {
 	return thread;
 }
 
+
+Template.tpl_threadlist.helpers({
+    isForumExisted: function() {
+        return !!Session.get("currentForumId");
+    },
+
+    threads: function() {
+        var cursor = threadCollection.find({}, {sort:{created_time:-1}, transform:formateThreads});
+        return cursor;
+    },
+
+    currentForum: function() {
+        var forumId = Session.get("currentForumId");
+        var cursor = forumCollection.findOne({"_id": forumId});
+        console.log(cursor);
+        return cursor;
+    },
+
+    rendered: function() {
+        $('#loading_div').waypoint(function() {
+            console.log("abc");
+            Session.set("threadListLimit", Session.get("threadListLimit") + 10);
+        }, {offset: '99%'});
+    }
+})
+
+/*
 Template.tpl_threadlist.threads = function() {
 	var cursor = threadCollection.find({}, {sort:{created_time:-1}, transform:formateThreads});
 	return cursor;
@@ -14,6 +41,7 @@ Template.tpl_threadlist.threads = function() {
 Template.tpl_threadlist.currentForum = function() {
 	var forumId = Session.get("currentForumId");
 	var cursor = forumCollection.findOne({"_id": forumId});
+    console.log(cursor);
 	return cursor;
 }
 
@@ -23,12 +51,14 @@ Template.tpl_threadlist.rendered = function() {
   		Session.set("threadListLimit", Session.get("threadListLimit") + 10);
 	}, {offset: '99%'});
 }
-
+*/
 
 Template.tpl_post_thread.events({
 	"click #btn_post_thread": function(event) {
-		if (!Meteor.userId) {
-
+        //提示用户登陆
+		if (!Meteor.userId()) {
+            Meteor.showErrorModal("请先登陆");
+            return;
 		}
 		var subject = $("#post_subject").val();
 		var content = $("#txt_post_content").val();
@@ -48,9 +78,5 @@ Template.tpl_post_thread.events({
 			
 		}
 	}
-})
-
-Meteor.startup(function() {
-	
 })
 

@@ -1,4 +1,21 @@
 
+Template.tpl_viewthread.helpers({
+    isThreadExisted: function() {
+        return !!Session.get("currentThreadId");
+    },
+
+    currentThread: function() {
+        var currentThreadId = Session.get("currentThreadId");
+        var cursor = threadCollection.findOne({"_id": currentThreadId});
+        return cursor;
+    },
+
+    posts: function() {
+        var cursor = postCollection.find({tid: Session.get("currentThreadId")});
+        return cursor;
+    }
+})
+/*
 Template.tpl_viewthread.currentThread = function() {
 	var currentThreadId = Session.get("currentThreadId");
 	var cursor = threadCollection.findOne({"_id": currentThreadId});
@@ -9,7 +26,7 @@ Template.tpl_viewthread.posts = function() {
 	var cursor = postCollection.find({tid: Session.get("currentThreadId")});
 	return cursor;
 }
-
+*/
 Template.tpl_viewthread.events({
 	"click #submit": function (event) {
 		var postInput = $("#post_input");

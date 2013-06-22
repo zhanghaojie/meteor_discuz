@@ -5,9 +5,7 @@
     <option name="projectEncoding" />
   </component>
   <component name="IdProvider" IDEtalkID="04133C8658CA829D6999C184F397E283" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" />
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <PyConsoleSettings />

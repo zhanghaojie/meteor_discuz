@@ -1,9 +1,23 @@
 
 
+Template.tpl_forumlist.helpers({
+    forums: function(groupId) {
+        var cursor = forumCollection.find({join_group: groupId});
+        return cursor;
+    },
+
+    forumGroup: function() {
+        var cursor = forumCollection.find(
+            {group: {$exists:true}});
+        return cursor;
+    }
+})
+/*
 Template.tpl_forumlist.forums = function(groupId) {
 	var cursor = forumCollection.find({join_group: groupId});
 	return cursor;
 };
+*/
 
 Template.tpl_forumlist.forumGroup = function() {
 	var cursor = forumCollection.find(

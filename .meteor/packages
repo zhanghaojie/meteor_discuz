@@ -8,7 +8,8 @@ less
 accounts-ui
 accounts-password
 accounts-base
-jquery-history
 handlebars
-jquery-waypoints
 d3
+jquery-history
+jquery-waypoints
+router

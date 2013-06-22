@@ -18,7 +18,7 @@ Meteor.methods({
 		return false;
 	},
 	isThreadExisted: function(threadId) {
-		var cursor = forumCollection.find({_id: threadId});
+		var cursor = threadCollection.find({_id: threadId});
 		if (cursor.count() > 0) {
 			return true;
 		}

@@ -1,4 +1,19 @@
 
+Template.tpl_header.helpers({
+    lang: function(key) {
+        var curLang = Meteor.currentLanguage;
+        if (!Meteor.languages[curLang]) {
+            curLang = "zh-CN";
+        }
+        return Meteor.languages[curLang][key];
+    },
+
+    isLogin: function() {
+        return Meteor.userId();
+    }
+})
+
+/*
 //--------------tpl_header--------------
 Template.tpl_header.lang = function(key) {
 	var curLang = Meteor.currentLanguage;
@@ -15,6 +30,7 @@ Template.tpl_header.isLogin = function() {
 Template.tpl_header.events({
 	
 })
+*/
 
 //------------tpl-login--------------
 Template.tpl_login.events({
@@ -28,21 +44,21 @@ Template.tpl_login.events({
 			Meteor.loginWithPassword(userName, password, function(error) {
 				if (error) {
 					if (error.reason === "User not found") {
-						showErrorModal("用户不存在");
+						Meteor.showErrorModal("用户不存在");
 						return;
 					}
 					console.log(error);
-					showErrorModal("用户名或者密码错误");
+                    Meteor.showErrorModal("用户名或者密码错误");
 				}
 			})
 		}
 		else {
 			if (!userName) {
-				showErrorModal("请输入用户名");
+                Meteor.showErrorModal("请输入用户名");
 				return ;
 			}
 			if (!password) {
-				showErrorModal("请输入密码");
+                Meteor.showErrorModal("请输入密码");
 				return ;
 			}
 		}

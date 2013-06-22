@@ -33,6 +33,8 @@ Meteor.setInterval(function () {
 			delete onlineUser[key];
 		}
 	}
+    //var util = Npm.require("util");
+    //console.log(util.inspect(Meteor.default_server,{showHidden:true}));
 }, 10000)
 
 

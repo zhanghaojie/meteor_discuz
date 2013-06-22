@@ -1,4 +1,5 @@
 <template name="tpl_viewthread">
+{{#if isThreadExisted}}
 	<div class="container">
 		<table class="table">
 			<th>ahaha</th>
@@ -16,4 +17,7 @@
 		<button id="invite" class="btn btn-primary">邀请</button>
 		<button id="alerts" class="btn btn-primary">Alert</button>
 	</div>
+{{else}}
+    {{> tpl_error404}}
+{{/if}}
 </template>

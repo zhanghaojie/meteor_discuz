@@ -6,8 +6,6 @@ Meteor.publish("forum-threads", function(forumId, limit) {
 	return cursor;
 })
 
-
-
 threadCollection.allow({
 	insert: function(userId, threadDoc) {
 		postCollection.insert({
@@ -15,7 +13,7 @@ threadCollection.allow({
 			tid: threadDoc._id,
 			author_id: threadDoc.author_id,
 			author: threadDoc.author,
-			message: threadDoc.first_post,
+			message: threadDoc.first_post
 		})
 		return true;
 	},
@@ -26,8 +24,3 @@ threadCollection.allow({
 		return true;
 	}
 })
-
-
-
-
-

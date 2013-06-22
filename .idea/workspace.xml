@@ -2,23 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9477245f-076c-4115-aadd-d9e3dd16b854" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/template/error_404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/user_tables.ods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/template/forumcard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/process_event.js" afterPath="$PROJECT_DIR$/client/process_events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discuz_meteor.iml" afterPath="$PROJECT_DIR$/discuz_meteor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.js" afterPath="$PROJECT_DIR$/client/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/approuter.js" afterPath="$PROJECT_DIR$/client/approuter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/common/error_modal.html" afterPath="$PROJECT_DIR$/client/template/common/error_modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/broadcast.js" afterPath="$PROJECT_DIR$/server/broadcast.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/common/error_modal.js" afterPath="$PROJECT_DIR$/client/template/common/error_modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/forumlist.html" afterPath="$PROJECT_DIR$/client/template/forumlist.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/forumlist.js" afterPath="$PROJECT_DIR$/client/template/forumlist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/header.html" afterPath="$PROJECT_DIR$/client/template/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/header.js" afterPath="$PROJECT_DIR$/client/template/header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/index.html" afterPath="$PROJECT_DIR$/client/template/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/methods.js" afterPath="$PROJECT_DIR$/server/methods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/online_users.js" afterPath="$PROJECT_DIR$/server/online_users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/postlist.html" afterPath="$PROJECT_DIR$/client/template/postlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/postlist.js" afterPath="$PROJECT_DIR$/client/template/postlist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publish_forum.js" afterPath="$PROJECT_DIR$/server/publish_forum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publish_thread.js" afterPath="$PROJECT_DIR$/server/publish_thread.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/release" afterPath="$PROJECT_DIR$/.meteor/release" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/threadlist.html" afterPath="$PROJECT_DIR$/client/template/threadlist.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/template/threadlist.js" afterPath="$PROJECT_DIR$/client/template/threadlist.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="discuz_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367475773373" ignored="false" />
+    <file path="/Dummy.txt" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371917732070" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730763" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730763" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730764" ignored="false" />
@@ -28,14 +43,33 @@
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-1_0.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730764" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730765" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730765" ignored="false" />
-    <file path="/error_modal.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367402082797" ignored="false" />
-    <file path="/header.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367120079782" ignored="false" />
+    <file path="/error_modal.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371669337156" ignored="false" />
+    <file path="/header.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371669113034" ignored="false" />
     <file path="/error_modal.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367119685540" ignored="false" />
-    <file path="/approuter.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367396022006" ignored="false" />
-    <file path="/threadlist.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367309075154" ignored="false" />
-    <file path="/threadlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367309164325" ignored="false" />
+    <file path="/approuter.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371742978411" ignored="false" />
+    <file path="/threadlist.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371742786177" ignored="false" />
+    <file path="/threadlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371742611286" ignored="false" />
     <file path="/error_404.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367394323681" ignored="false" />
-    <file path="/methods.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367395720257" ignored="false" />
+    <file path="/methods.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1369616289522" ignored="false" />
+    <file path="/broadcast.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371924040613" ignored="false" />
+    <file path="/forumlist.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371553945259" ignored="false" />
+    <file path="/a.dummy" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371851286747" ignored="false" />
+    <file path="/forumlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371669041400" ignored="false" />
+    <file path="/postlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371743175289" ignored="false" />
+    <file path="/smart.json" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371739292853" ignored="false" />
+    <file path="/index.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371742077432" ignored="false" />
+    <file path="/postlist.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371743230971" ignored="false" />
+    <file path="/card.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371755444447" ignored="false" />
+    <file path="/publish_forum.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371840044936" ignored="false" />
+    <file path="/app.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371840615487" ignored="false" />
+    <file path="/common.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371852866495" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/accounts-base/accounts_client.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371852997072" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/livedata/livedata_common.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371852997072" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/mongo-livedata/collection.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371852997072" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/underscore/underscore.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371852997073" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/mongo-livedata/collection.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371852997073" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/accounts-base/localstorage_token.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371852997073" ignored="false" />
+    <file path="/livedata_connection.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371853318563" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,64 +130,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="error_modal.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/template/common/error_modal.html">
+      <file leaf-file-name="broadcast.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/broadcast.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31" selection-start="17" selection-end="32" vertical-scroll-proportion="0.0">
+            <state line="34" column="14" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smart.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smart.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error_modal.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/template/common/error_modal.js">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="10" selection-end="25" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/template/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forumlist.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/template/forumlist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error_404.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/template/error_404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threadlist.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/template/threadlist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="17" selection-start="599" selection-end="599" vertical-scroll-proportion="0.68904597">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/template/header.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="2" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+            <state line="31" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="0.8598485">
               <folding />
             </state>
           </provider>
@@ -162,25 +162,45 @@
       <file leaf-file-name="approuter.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/approuter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="32" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload_file.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/lib/upload_file.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/template/header.js">
+      <file leaf-file-name="publish_forum.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/publish_forum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="28" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/template/header.html">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="89" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_data.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/test_data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,28 +225,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/forum_schema.js" />
-        <option value="$PROJECT_DIR$/server/online_users.js" />
-        <option value="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/jquery/jquery.js" />
-        <option value="$PROJECT_DIR$/client/template/header.html" />
-        <option value="$PROJECT_DIR$/client/template/threadlist.html" />
-        <option value="$PROJECT_DIR$/client/template/error_404.html" />
-        <option value="$PROJECT_DIR$/client/template/threadlist.js" />
         <option value="$PROJECT_DIR$/client/approuter.js" />
-        <option value="$PROJECT_DIR$/server/methods.js" />
-        <option value="$PROJECT_DIR$/client/template/common/error_modal.js" />
-        <option value="$PROJECT_DIR$/client/template/common/error_modal.html" />
-        <option value="$PROJECT_DIR$/client/template/index.html" />
-        <option value="$PROJECT_DIR$/client/template/header.js" />
-        <option value="$PROJECT_DIR$/client/template/forumlist.js" />
+        <option value="$PROJECT_DIR$/client/template/card.html" />
+        <option value="$PROJECT_DIR$/client/template/forumcard.html" />
+        <option value="$PROJECT_DIR$/server/publish_forum.js" />
+        <option value="$PROJECT_DIR$/broadcast.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/app/broadcast.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/app/packages/livedata/livedata_server.js" />
+        <option value="$PROJECT_DIR$/server/online_users.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/app/packages/livedata/livedata_connection.js" />
+        <option value="$PROJECT_DIR$/common.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/livedata/livedata_connection.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/dependencies.json" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/livedata/stream_client_sockjs.js" />
+        <option value="$PROJECT_DIR$/client/lib/broadcast.js" />
+        <option value="$PROJECT_DIR$/client/app.js" />
+        <option value="$PROJECT_DIR$/server/broadcast.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="324" />
+    <option name="y" value="22" />
+    <option name="width" value="1256" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -234,9 +257,6 @@
         <expanded-state>
           <State>
             <id />
-          </State>
-          <State>
-            <id>Android Lint</id>
           </State>
           <State>
             <id>Internationalization issues</id>
@@ -273,16 +293,14 @@
       <flattenPackages />
       <showMembers />
       <showModules />
-      <showLibraryContents />
+      <showLibraryContents ProjectPane="true" />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
+      <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource />
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,66 +329,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".meteor" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="discuz_meteor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="discuz_meteor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="discuz_meteor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSLint" />
+    <property name="options.splitter.main.proportions" value="0.3013013" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.24797219" />
@@ -383,96 +395,19 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/client/lib" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -516,38 +451,42 @@
       <created>1367120575160</created>
       <updated>1367120575160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1367475794854</created>
+      <updated>1367475794854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="324" y="22" width="1256" height="790" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28507462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1764706" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19153515" sideWeight="0.8235294" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26277372" sideWeight="0.18005952" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26277372" sideWeight="0.6473214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17261904" sideWeight="0.27170077" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19940476" sideWeight="0.7282992" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -615,106 +554,104 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/app.js">
+    <entry file="file://$PROJECT_DIR$/client/process_events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="3" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" />
+        <state line="13" column="1" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/threadlist.js">
+    <entry file="file://$PROJECT_DIR$/.meteor/local/build/app/packages/livedata/livedata_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" />
+        <state line="1161" column="2" selection-start="37697" selection-end="37697" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/test.html">
+    <entry file="file://$PROJECT_DIR$/server/methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/online_users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/postlist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/postlist.html">
+    <entry file="file://$PROJECT_DIR$/server/publish_post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/index.less">
+    <entry file="file://$PROJECT_DIR$/server/publish_thread.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/header.html">
+    <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="89" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/test_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publish_forum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/approuter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="32" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/broadcast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="14" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/common/error_modal.html">
+    <entry file="file://$PROJECT_DIR$/client/lib/upload_file.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="17" selection-end="32" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/common/error_modal.js">
+    <entry file="file://$PROJECT_DIR$/client/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="10" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="28" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/forumlist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/error_404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/threadlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="17" selection-start="599" selection-end="599" vertical-scroll-proportion="0.68904597">
+        <state line="31" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="0.8598485">
           <folding />
         </state>
       </provider>

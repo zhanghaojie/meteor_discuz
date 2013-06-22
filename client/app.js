@@ -15,9 +15,7 @@ Session.set("threadListLimit", 10);
 
 Deps.autorun(function() {
 	var currentForumId = Session.get("currentForumId");
-	
 	if (currentForumId) {
-		console.log("1111111111");
 		Meteor.subscribe("forum-threads", currentForumId, Session.get("threadListLimit"));
 	}
 })
@@ -35,6 +33,12 @@ Deps.autorun(function() {
 	Meteor.subscribe("broadcast", Meteor.userId());
 })
 
+broadcastCollection.find().observe({
+    added: function() {
+        console.log(arguments);
+    }
+})
 
+Meteor._printSentDDP = true;
 
 
