@@ -1,7 +1,6 @@
 
 
+//Meteor._printSentDDP = true;
+//Meteor._printReceivedDDP = true;
 
-Meteor.startup(function() {
-	//console.log(__meteor_bootstrap__._routePolicy);
-})
-
+//console.log(Template)

@@ -1,4 +1,4 @@
-
+/*
 // 服务器启动设置所有用户为offline
 Meteor.users.update({}, {$set:{online: false}}, {multi: true});
 
@@ -36,7 +36,8 @@ Meteor.setInterval(function () {
     //var util = Npm.require("util");
     //console.log(util.inspect(Meteor.default_server,{showHidden:true}));
 }, 10000)
+*/
 
-
-
-
+Meteor.publish("userStatus", function() {
+    return Meteor.users.find({"profile.online": true});
+})

@@ -1,0 +1,18 @@
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>discuz_meteor</title>
+</head>
+
+<body>
+{{renderPage}}
+</body>
+
+<template name="tpl_index">
+    {{> tpl_header}}
+    <div id="content" class="container">
+        {{> tpl_forumlist}}
+    </div>
+    {{> tpl_footer}}
+    {{> tpl_register}}
+    {{> tpl_error_modal}}
+</template>

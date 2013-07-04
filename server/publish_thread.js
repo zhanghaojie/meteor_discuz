@@ -1,9 +1,7 @@
-threadCollection = new Meteor.Collection("threads");
 
 Meteor.publish("forum-threads", function(forumId, limit) {
-	var cursor = threadCollection.find({"fid": forumId},{limit: limit, sort:{created_time: -1}});
-	//observeThreadCursor(cursor);
-	return cursor;
+    var cursor = threadCollection.find({"fid": forumId},{limit: limit, sort:{created_time: -1}});
+    return cursor;
 })
 
 threadCollection.allow({

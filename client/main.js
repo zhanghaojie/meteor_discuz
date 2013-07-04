@@ -1,4 +1,4 @@
-
+/*
 Meteor.startup(function() {
 	//init();
 	Meteor.autorun(function() {
@@ -9,6 +9,5 @@ Meteor.startup(function() {
 	})
 });
 
-
-
+*/
 

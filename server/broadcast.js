@@ -14,8 +14,7 @@ Meteor.publish("broadcast", function() {
 */
 broadcastCollection = new Meteor.Collection("broadcast");
 
-Meteor.publish("broadcast", function(userId) {
-    if (!userId) return;
+Meteor.publish("broadcast", function() {
     var self = this;
     var broadcastHandle = broadcastCollection.find({is_broadcast: false}).observe({
         added: function(doc) {
@@ -32,22 +31,23 @@ Meteor.publish("broadcast", function(userId) {
     })
 })
 
-// event_name:
-// from:
-// to:
-// msg
-
 Meteor.methods({
 	broadcast: function(eventName, from, args) {
-        if (Meteor.userId() === from) {
+        var userId = Meteor.userId();
+        var result = false;
+        if (!!userId && userId === from) {
             broadcastCollection.insert({event_name: eventName, is_broadcast: false,
-                from: from, args: args})
-		    return true;
+                from: from, args: args}, function(error, id) {
+                if (!error && id) {
+                    result = true;
+                }
+                else
+                    result = false;
+            })
         }
-        return false;
+        return result;
 	}
 })
 
-Meteor._printSentDDP = true;
-Meteor._printReceivedDDP = true;
+
 

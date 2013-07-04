@@ -120,7 +120,7 @@ Meteor.startup (function() {
 */
 
 Meteor.Router.add({
-    '/': 'tpl_forumlist',
+    '/': 'tpl_index',
 
     '/forum/:id': {to: 'tpl_threadlist',
                    and: function(forumId) {
@@ -159,7 +159,16 @@ Meteor.Router.add({
                                 console.log("Server Error: " + error);
                             }
                         })
-                    }}
+                    }},
+    '/admin': {
+        to: 'tpl_admin',
+        and: function() {}
+    },
+
+    '/test': {
+        to: 'tpl_test',
+        and: function() {}
+    }
 })
 
 

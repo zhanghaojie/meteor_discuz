@@ -1,5 +1,4 @@
 
-forumCollection = new Meteor.Collection("forums");
 
 Meteor.publish("all-forums", function() {
 	var cursor = forumCollection.find();

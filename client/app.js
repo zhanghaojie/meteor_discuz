@@ -1,15 +1,13 @@
 
-Meteor.subscribe("online-users");
+Meteor.users.find({ "profile.online": true }).observe({
+    added: function(doc) {
+        //console.log(doc);
+    }
+})
+
+Meteor.subscribe("userStatus");
 
 Meteor.subscribe("all-forums");
-
-forumCollection = new Meteor.Collection("forums");
-
-threadCollection = new Meteor.Collection("threads");
-
-postCollection = new Meteor.Collection("posts");
-
-broadcastCollection = new Meteor.Collection("broadcast");
 
 Session.set("threadListLimit", 10);
 
@@ -28,17 +26,5 @@ Deps.autorun(function() {
 		Meteor.subscribe("thread-posts", currentThreadId, Session.get("postListLimit"));
 	}
 })
-
-Deps.autorun(function() {
-	Meteor.subscribe("broadcast", Meteor.userId());
-})
-
-broadcastCollection.find().observe({
-    added: function() {
-        console.log(arguments);
-    }
-})
-
-Meteor._printSentDDP = true;
 
 

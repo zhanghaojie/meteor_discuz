@@ -1,0 +1,33 @@
+
+<template name="tpl_build">
+    <div class="container edit">
+        <div class="row-fluid">
+            <div class="sidebar-nav affix">
+                {{#each sidebarList}}
+                <ul class="nav nav-list">
+                    <li class="nav-header" data-toggle="collapse" data-parent=".sidebar-nav" href="#{{this}}">
+                        <i class="icon-plus icon-white"></i>
+                        {{this}}
+                    </li>
+                    <li id="{{this}}" class="rows accordion-group collapse">
+                        {{#each sidebarSublist this}}
+                        <div class="lyrow">
+                            <a href="#close" class="remove label label-important">
+                                <i class="icon-remove icon-white">remove</i>
+                            </a>
+                                <span class="drag label">
+                                    <i class="icon-move"></i>
+                                    drag
+                                </span>
+                            <div class="preview">
+                                <input type="text" value="{{this}}">
+                            </div>
+                        </div>
+                        {{/each}}
+                    </li>
+                </ul>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</template>
