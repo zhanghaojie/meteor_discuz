@@ -1,33 +1,37 @@
 
 <template name="tpl_build">
-    <div class="container edit">
+    <div class="container-fluid edit">
         <div class="row-fluid">
             <div class="sidebar-nav affix">
-                {{#each sidebarList}}
+                {{#each_with_index sidebarList}}
                 <ul class="nav nav-list">
-                    <li class="nav-header" data-toggle="collapse" data-parent=".sidebar-nav" href="#{{this}}">
+                    <li class="nav-header" data-toggle="collapse" data-parent=".sidebar-nav" href="#item{{_key}}">
                         <i class="icon-plus icon-white"></i>
-                        {{this}}
+                        {{_key}}
                     </li>
-                    <li id="{{this}}" class="rows accordion-group collapse">
-                        {{#each sidebarSublist this}}
+                    <li id="item{{_key}}" class="collapse">
+                        {{#each_with_index this}}
                         <div class="lyrow">
-                            <a href="#close" class="remove label label-important">
+                            <input type="text" value="{{this}}">
+                            <a href="#remove" class="hide label label-important">
                                 <i class="icon-remove icon-white">remove</i>
                             </a>
-                                <span class="drag label">
-                                    <i class="icon-move"></i>
-                                    drag
-                                </span>
-                            <div class="preview">
-                                <input type="text" value="{{this}}">
+                            <span class="drag label pull-right">
+                                <i class="icon-move"></i>
+                                drag
+                            </span>
+                            <div class="view">
+                                adfffff
                             </div>
                         </div>
-                        {{/each}}
+                        {{/each_with_index}}
                     </li>
                 </ul>
-                {{/each}}
+                {{/each_with_index}}
             </div>
+        </div>
+        <div class="demo">
+
         </div>
     </div>
 </template>

@@ -2,11 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9477245f-076c-4115-aadd-d9e3dd16b854" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/forum_icon copy 2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/forum_icon copy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/modules/abc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/captcha/captcha.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/handlebars_helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/captcha/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/modules/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/34_avatar_middle.jpg" afterPath="$PROJECT_DIR$/public/34_avatar_middle.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/40_avatar_middle.jpg" afterPath="$PROJECT_DIR$/public/40_avatar_middle.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/84_avatar_middle.jpg" afterPath="$PROJECT_DIR$/public/84_avatar_middle.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discuz_meteor.iml" afterPath="$PROJECT_DIR$/discuz_meteor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/user_tables.ods" afterPath="$PROJECT_DIR$/tests/user_tables.ods" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/admin.html" afterPath="$PROJECT_DIR$/client/templates/admin/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/admin.js" afterPath="$PROJECT_DIR$/client/templates/admin/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/bootstrap_superhero.css" afterPath="$PROJECT_DIR$/tests/bootstrap_superhero.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/broadcast.js" afterPath="$PROJECT_DIR$/client/broadcast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/broadcast.js" afterPath="$PROJECT_DIR$/server/broadcast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/build.html" afterPath="$PROJECT_DIR$/client/templates/admin/build.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/build.js" afterPath="$PROJECT_DIR$/client/templates/admin/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/build.less" afterPath="$PROJECT_DIR$/client/templates/admin/build.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/chat.js" afterPath="$PROJECT_DIR$/client/chat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/chat.js" afterPath="$PROJECT_DIR$/server/chat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common.js" afterPath="$PROJECT_DIR$/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/darkstrap/darkstrap-override.css" afterPath="$PROJECT_DIR$/packages/darkstrap/darkstrap-override.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/darkstrap/darkstrap.css" afterPath="$PROJECT_DIR$/packages/darkstrap/darkstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/error_404.html" afterPath="$PROJECT_DIR$/client/templates/error_404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/common/error_modal.html" afterPath="$PROJECT_DIR$/client/templates/common/error_modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/common/error_modal.js" afterPath="$PROJECT_DIR$/client/templates/common/error_modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forum_schema.js" afterPath="$PROJECT_DIR$/forum_schema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/forumcard.html" afterPath="$PROJECT_DIR$/client/templates/forumcard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/forumlist.less" afterPath="$PROJECT_DIR$/client/templates/forumlist.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/forums.js" afterPath="$PROJECT_DIR$/collections/forums.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/grid.html" afterPath="$PROJECT_DIR$/client/templates/grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/grid.js" afterPath="$PROJECT_DIR$/client/templates/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/grid.less" afterPath="$PROJECT_DIR$/client/templates/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pages/index.html" afterPath="$PROJECT_DIR$/client/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/index.less" afterPath="$PROJECT_DIR$/client/templates/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/methods.js" afterPath="$PROJECT_DIR$/server/methods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/online_users.js" afterPath="$PROJECT_DIR$/server/online_users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/darkstrap/package.js" afterPath="$PROJECT_DIR$/packages/darkstrap/package.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/jquery-ui/package.js" afterPath="$PROJECT_DIR$/packages/jquery-ui/package.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/posts.js" afterPath="$PROJECT_DIR$/collections/posts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/process_events.js" afterPath="$PROJECT_DIR$/client/process_events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publish_forum.js" afterPath="$PROJECT_DIR$/server/publish_forum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publish_post.js" afterPath="$PROJECT_DIR$/server/publish_post.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publish_thread.js" afterPath="$PROJECT_DIR$/server/publish_thread.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/release" afterPath="$PROJECT_DIR$/.meteor/release" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/request_handler.js" afterPath="$PROJECT_DIR$/request_handler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.json" afterPath="$PROJECT_DIR$/smart.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.lock" afterPath="$PROJECT_DIR$/smart.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/stuff.txt" afterPath="$PROJECT_DIR$/tests/stuff.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/test.html" afterPath="$PROJECT_DIR$/client/templates/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/test.js" afterPath="$PROJECT_DIR$/client/templates/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/test.less" afterPath="$PROJECT_DIR$/client/templates/test.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/test_data.js" afterPath="$PROJECT_DIR$/server/test_data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/threads.js" afterPath="$PROJECT_DIR$/collections/threads.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/lib/upload_file.js" afterPath="$PROJECT_DIR$/client/lib/upload_file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/upload_test.js" afterPath="$PROJECT_DIR$/tests/upload_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/zhanghaojie.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/zhanghaojie.xml" />
     </list>
     <ignored path="discuz_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372898153258" ignored="false" />
+    <file path="/Dummy.txt" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375360838284" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730763" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730763" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730764" ignored="false" />
@@ -26,17 +100,16 @@
     <file path="/methods.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1369616289522" ignored="false" />
     <file path="/broadcast.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372040258169" ignored="false" />
     <file path="/forumlist.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372648770413" ignored="false" />
-    <file path="/a.dummy" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372477699392" ignored="false" />
+    <file path="/a.dummy" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1374731119692" ignored="false" />
     <file path="/forumlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371669041400" ignored="false" />
     <file path="/postlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371942917996" ignored="false" />
     <file path="/smart.json" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371739292853" ignored="false" />
-    <file path="/index.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372463893538" ignored="false" />
+    <file path="/index.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1373262083012" ignored="false" />
     <file path="/postlist.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371743230971" ignored="false" />
     <file path="/card.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371755444447" ignored="false" />
     <file path="/publish_forum.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371840044936" ignored="false" />
     <file path="/app.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372380681598" ignored="false" />
     <file path="/common.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372814761801" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/accounts-base/localstorage_token.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371852997073" ignored="false" />
     <file path="/livedata_connection.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371853318563" ignored="false" />
     <file path="/forums.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371942014520" ignored="false" />
     <file path="/threads.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371941723516" ignored="false" />
@@ -44,28 +117,36 @@
     <file path="/chat.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372024200306" ignored="false" />
     <file path="/online_users.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372027200550" ignored="false" />
     <file path="/server.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372105478952" ignored="false" />
-    <file path="/test.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372824659062" ignored="false" />
-    <file path="/test.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372824766295" ignored="false" />
+    <file path="/test.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375354438536" ignored="false" />
+    <file path="/test.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1373263233904" ignored="false" />
     <file path="/admin.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372392519245" ignored="false" />
-    <file path="/build.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372757248105" ignored="false" />
-    <file path="/build.less" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372465125494" ignored="false" />
-    <file path="/build.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372756928932" ignored="false" />
-    <file path="/package.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372558741918" ignored="false" />
+    <file path="/build.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375355197102" ignored="false" />
+    <file path="/build.less" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375355571336" ignored="false" />
+    <file path="/build.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375354821750" ignored="false" />
+    <file path="/package.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375115042152" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/client/template/admin/build.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662521055" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/server/node_modules/underscore/underscore.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662521055" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/meteorite/packages/page-js-ie-support/page-js/test/chai.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662521056" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/meteorite/packages/page-js-ie-support/page-js/test/mocha.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662521056" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/client/templates/threadlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662591285" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/client/templates/template.threadlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662591286" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/domutils/domutils.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662591286" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/client/approuter.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662591286" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/spark/spark.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662591289" ignored="false" />
     <file path="/grid.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372823452463" ignored="false" />
-    <file path="/grid.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372823558674" ignored="false" />
+    <file path="/grid.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372933781562" ignored="false" />
     <file path="/grid.less" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372851012476" ignored="false" />
     <file path="/forumlist.less" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372839037325" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/app/server/publish_forum.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372841920184" ignored="false" />
     <file path="/3e25bd289b35c987a0c235c737a4ac449546cdbf.css" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372849929518" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/client/templates/template.index.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372934330946" ignored="false" />
+    <file path="/smart.lock" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372995984345" ignored="false" />
+    <file path="/handlebars_helpers.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1373013214144" ignored="false" />
+    <file path="/main.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1374654817814" ignored="false" />
+    <file path="/captcha.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375085808795" ignored="false" />
+    <file path="/captcha2.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375087882366" ignored="false" />
+    <file path="/builder.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375114055174" ignored="false" />
+    <file path="/abc.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375114336494" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../MacOSDisk/Github/meteor-dev/meteor" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375254994241" ignored="false" />
+    <file path="/meteor" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375254984483" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../MacOSDisk/Github/meteor-dev/tools/run.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375256145516" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../MacOSDisk/Github/meteor-dev/tools/bundler.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375258843337" ignored="false" />
+    <file path="/bundler.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375256741634" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../MacOSDisk/Github/meteor-dev/tools/library.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375259564739" ignored="false" />
+    <file path="/a.less" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375303157293" ignored="false" />
+    <file path="/build.css" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375303079387" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,21 +203,23 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="discuz_meteor" />
+    <favorites_list name="discuz_meteor">
+      <favorite_root url="file://$PROJECT_DIR$/client/templates/forumcard.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="grid.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/grid.less">
+      <file leaf-file-name="build.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/admin/build.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+            <state line="32" column="2" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.meteor/local/build/app.json">
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -144,17 +227,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.meteor/local/build/app.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.82258064">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forumlist.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/forumlist.js">
+      <file leaf-file-name="test.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/test.less">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -162,8 +236,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forumlist.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/forumlist.less">
+      <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/admin/admin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -171,44 +254,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="darkstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/darkstrap/darkstrap.css">
+      <file leaf-file-name="admin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/admin/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="301" column="12" selection-start="6977" selection-end="6977" vertical-scroll-proportion="0.0">
+            <state line="3" column="11" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="darkstrap-override.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/darkstrap/darkstrap-override.css">
+      <file leaf-file-name="build.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/admin/build.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+            <state line="13" column="38" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/templates/admin/build.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="20" selection-start="281" selection-end="281" vertical-scroll-proportion="0.024154589">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="package.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/jquery-ui/package.js">
+        <entry file="file://$PROJECT_DIR$/packages/modules/package.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-ui-1.10.3.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="781" column="4" selection-start="16578" selection-end="16582" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-ui-1.10.3.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.min.css">
+      <file leaf-file-name="threadlist.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/threadlist.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -235,30 +318,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/template/forumlist.html" />
-        <option value="$PROJECT_DIR$/client/template/test.html" />
-        <option value="$PROJECT_DIR$/client/template/test.js" />
-        <option value="$PROJECT_DIR$/packages/jquery-ui/package.js" />
-        <option value="$PROJECT_DIR$/.meteor/local/build/app/packages/mongo-livedata/collection.js" />
+        <option value="$PROJECT_DIR$/packages/captcha/captcha.js" />
+        <option value="$PROJECT_DIR$/packages/captcha/package.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/app/packages/collectionFS/myConsole.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/app/packages/collectionFS/collectionFS_server.api.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/dependencies.json" />
+        <option value="$PROJECT_DIR$/packages/modules/builder.js" />
+        <option value="$PROJECT_DIR$/packages/modules/abc.js" />
+        <option value="$PROJECT_DIR$/client/templates/header.js" />
+        <option value="$PROJECT_DIR$/client/templates/admin/build.css" />
+        <option value="$PROJECT_DIR$/packages/modules/package.js" />
+        <option value="$PROJECT_DIR$/client/templates/test.js" />
+        <option value="$PROJECT_DIR$/client/templates/test.html" />
+        <option value="$PROJECT_DIR$/client/templates/test.less" />
         <option value="$PROJECT_DIR$/client/templates/admin/build.js" />
         <option value="$PROJECT_DIR$/client/templates/admin/build.html" />
-        <option value="$PROJECT_DIR$/common.js" />
-        <option value="$PROJECT_DIR$/client/templates/grid.html" />
-        <option value="$PROJECT_DIR$/client/templates/grid.js" />
-        <option value="$PROJECT_DIR$/client/templates/test.html" />
-        <option value="$PROJECT_DIR$/client/templates/test.js" />
-        <option value="$PROJECT_DIR$/client/templates/forumlist.less" />
-        <option value="$PROJECT_DIR$/packages/darkstrap/darkstrap.css" />
-        <option value="$PROJECT_DIR$/.meteor/local/build/static_cacheable/3e25bd289b35c987a0c235c737a4ac449546cdbf.css" />
-        <option value="$PROJECT_DIR$/client/templates/grid.less" />
+        <option value="$PROJECT_DIR$/client/templates/admin/build.less" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
+    <option name="x" value="442" />
     <option name="y" value="22" />
-    <option name="width" value="1332" />
+    <option name="width" value="998" />
     <option name="height" value="790" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -269,7 +352,22 @@
             <id />
           </State>
           <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
             <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>LESS</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
           </State>
           <State>
             <id>Spelling</id>
@@ -329,88 +427,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="darkstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -422,19 +438,21 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3013013" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="settings" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MacOSDisk/Github/meteor-dev" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.24797219" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -445,13 +463,12 @@
   <component name="RestClientSettings">
     <option name="LAST_HOST" value="http://localhost:3000/" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+  <component name="RunManager" selected="Node.js.mrt.js">
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -461,7 +478,16 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="mrt.js" type="NodeJSConfigurationType" factoryName="Node.js" singleton="true" path-to-node="/usr/local/bin/node" path-to-js-file="/usr/local/lib/node_modules/meteorite/bin/mrt.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.mrt.js" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -507,41 +533,45 @@
       <created>1372898168860</created>
       <updated>1372898168860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <created>1372898196179</created>
+      <updated>1372898196179</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="22" width="1332" height="790" extended-state="0" />
+    <frame x="442" y="22" width="998" height="790" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24105754" sideWeight="0.1119403" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2720588" sideWeight="0.3169643" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24105754" sideWeight="0.55671644" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2720588" sideWeight="0.68303573" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22916667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26041666" sideWeight="0.15169491" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985073" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26041666" sideWeight="0.15169491" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27910447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16517857" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26041666" sideWeight="0.8483051" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26041666" sideWeight="0.8483051" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29464287" sideWeight="0.7269907" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2157738" sideWeight="0.7269907" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -605,114 +635,112 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/templates/test.js</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/templates/grid.js">
+    <entry file="file://$PROJECT_DIR$/.meteor/local/build/dependencies.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="7205" selection-start="7205" selection-end="7205" vertical-scroll-proportion="0.20044543" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/index.less">
+    <entry file="file://$PROJECT_DIR$/packages/modules/abc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="73" selection-end="73" vertical-scroll-proportion="-2.72">
-          <folding />
-        </state>
+        <state line="9" column="22" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="124" column="9" selection-start="2980" selection-end="2980" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="56" selection-end="56" vertical-scroll-proportion="-2.04">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/forumlist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/forumlist.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/local/build/static_cacheable/6ca276a0f1adbe6e83fa8d308b0742bcf389bbbb.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/jquery-ui/package.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/forumlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/jquery-ui/js/jquery-ui-1.10.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1471" column="0" selection-start="43565" selection-end="43565" vertical-scroll-proportion="0.51863354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/admin/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/threadlist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.min.css">
+    <entry file="file://$PROJECT_DIR$/client/templates/admin/admin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.css">
+    <entry file="file://$PROJECT_DIR$/packages/modules/package.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="781" column="4" selection-start="16578" selection-end="16582" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/darkstrap/darkstrap-override.css">
+    <entry file="file://$PROJECT_DIR$/client/templates/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/darkstrap/darkstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="301" column="12" selection-start="6977" selection-end="6977" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/local/build/static_cacheable/5732c8827ca25deb579ac709731686f600481e47.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="193" selection-end="193" vertical-scroll-proportion="-4.504039" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/grid.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/local/build/app.json">
+    <entry file="file://$PROJECT_DIR$/client/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/local/build/app.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/test.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.82258064">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/admin/build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/admin/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="2" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/admin/build.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="20" selection-start="281" selection-end="281" vertical-scroll-proportion="0.024154589">
           <folding />
         </state>
       </provider>
