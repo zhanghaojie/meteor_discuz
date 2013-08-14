@@ -3,6 +3,7 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
+standard-app-packages
 bootstrap
 less
 accounts-ui
@@ -14,5 +15,10 @@ jquery-history
 jquery-waypoints
 router
 user-status
+captcha
+modules
+jquery-ui
+darkstrap
+jquery-htmlclean
+page-js-ie-support
 spiderable
-collectionFS

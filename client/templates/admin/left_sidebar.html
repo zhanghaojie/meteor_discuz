@@ -1,0 +1,38 @@
+
+<template name="tpl_leftsidebar">
+    <div id="sidebar-nav">
+        {{#each_with_index sidebarList}}
+        <ul class="nav nav-list">
+            <li class="nav-header" data-toggle="collapse" data-parent=".sidebar-nav" href="#{{_key}}">
+                <i class="icon-plus icon-white"></i>
+                {{this.title}}
+            </li>
+            <li id="{{_key}}" class="collapse">
+                {{#each_with_index this.widgets}}
+                <div class="lyrow">
+                    <div class="preview">
+                        {{#if this.template.params}}
+                        <input type="text" value="{{this.title}}">
+                        {{else}}
+                        {{this.title}}
+                        {{/if}}
+                    </div>
+                    <a href="#remove" class="label label-important">
+                        <i class="icon-remove icon-white"></i>
+                        remove
+                    </a>
+                    <span class="drag label">
+                        <i class="icon-move"></i>
+                        drag
+                    </span>
+                    <div class="view">
+                        {{#compile_tpl this.template }}{{this}}{{/compile_tpl}}
+                    </div>
+                </div>
+
+                {{/each_with_index}}
+            </li>
+        </ul>
+        {{/each_with_index}}
+    </div>
+</template>

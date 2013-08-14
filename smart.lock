@@ -1,14 +1,9 @@
 {
-  "meteor": {
-    "git": "https://github.com/meteor/meteor.git",
-    "branch": "master",
-    "commit": "2e78d0d110443ac6fb9471e6be1c136f15f03fd2"
-  },
+  "meteor": {},
   "dependencies": {
     "basePackages": {
       "router": {},
-      "user-status": {},
-      "collectionFS": {}
+      "user-status": {}
     },
     "packages": {
       "router": {
@@ -18,13 +13,8 @@
       },
       "user-status": {
         "git": "https://github.com/mizzao/meteor-user-status.git",
-        "tag": "v0.1.4",
-        "commit": "0b6c20a975cf7ba1edc539c0ae7275ff0b27633c"
-      },
-      "collectionFS": {
-        "git": "https://github.com/raix/Meteor-CollectionFS.git",
-        "tag": "v0.2.3",
-        "commit": "4a1b9298a7ce64269fd14be29d9c4797b9253103"
+        "tag": "v0.1.5",
+        "commit": "0169a468e57155f1d61fc2b1cd76bc9ca51c7313"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",

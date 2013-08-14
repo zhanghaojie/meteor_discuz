@@ -1,7 +1,6 @@
 {
   "packages": {
     "router": {},
-    "user-status": {},
-    "collectionFS": {}
+    "user-status": {}
   }
 }

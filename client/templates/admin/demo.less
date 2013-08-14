@@ -1,0 +1,49 @@
+.demo {
+  position: relative;
+  margin-left: 200px;
+  min-height: 400px;
+  padding: 30px 15px 15px;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  position: relative;
+  word-wrap: break-word;
+  background-color: #ffffff;
+}
+
+.demo:after {
+  background-color: #F5F5F5;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px 0px 4px 0px;
+  content: "Container";
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+  left: -1px;
+  top: -1px;
+  padding: 3px 7px;
+  position: absolute;
+}
+
+.demo {
+  .preview {
+    display: none;
+  }
+
+  a[href="#remove"] {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+  }
+
+  .drag {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    cursor: pointer;
+  }
+
+  .lyrow {
+    position: relative;
+    margin: 4px;
+  }
+}
