@@ -10,15 +10,6 @@ accounts-ui
 accounts-password
 accounts-base
 handlebars
-d3
-jquery-history
-jquery-waypoints
-router
-user-status
 captcha
-modules
 jquery-ui
-darkstrap
-jquery-htmlclean
-page-js-ie-support
-spiderable
+iron-router

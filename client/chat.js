@@ -13,9 +13,3 @@ Deps.autorun(function() {
         Meteor.subscribe("chat", Meteor.userId());
     }
 })
-
-chatCollection.find().observe({
-    added: function() {
-        console.log(arguments);
-    }
-})

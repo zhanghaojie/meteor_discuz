@@ -7,22 +7,20 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 	        </button>
-			<a class="brand" href="#">Logo</a>
-			
+            <a class="brand" href="#">Logo</a>
 			<div class="nav-collapse collapse">
-				<div>
-					<ul class="nav">
-						<li><a href="#/">首页</a></li>
-						<li><a href="#/">论坛</a></li>
-					</ul>
-				</div>
-				<div class="pull-right">
-					{{#if isLogin}}
-						{{> tpl_user_panel}}
-					{{else}}
-						{{> tpl_login}}
-					{{/if}}
-				</div>
+                <ul class="nav">
+                    <li><a href="#/">首页</a></li>
+                    <li><a href="#/">论坛</a></li>
+                </ul>
+                <div class="pull-right">
+                    {{#if isLogin}}
+                    {{> tpl_user_panel}}
+                    {{else}}
+                    {{> tpl_login}}
+                    {{/if}}
+                </div>
+
 			</div>
 		</div>
 	</div>
@@ -30,47 +28,47 @@
 </template>
 
 <template name="tpl_login">
-<form action="#" class="form-inline navbar-form">
-	<div class="control-group inline">
-		<input class="input-medium" id="login_username" placeholder="Email" type="email"/>
-	</div>
+<form action="#" class="navbar-form">
+	<input class="input-medium" id="login_username" placeholder="Email" type="email"/>
 	<input class="input-medium" id="login_password" placeholder="Password" type="password"/>
 	<button id="btn_login" class="btn btn-small">登陆</button>
 	<button id="btn_register" class="btn btn-small" href="#dlg_register" data-toggle="modal" >注册</button>
 </form>
-</div>
 </template>
 
 
 <template name="tpl_register">
 <div id="dlg_register" class="modal hide fade">
-		<div class="modal-header">
-			<a class="close" data-dismiss="modal">x</a>
-			<h3>注册</h3>
-		</div>
-	<form>
-		<div class="modal-body">
-			<div class="control-group">
-				<label class="control-label" for="reg_user_name" >用户名：</label>
-				<div class="controls">
-					<input id="reg_user_name" class="input-xlarge" placeholder="Email" type="email">
-					<span id="reg_user_name_info" class="help-inline"></span>
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="reg_password">密码：</label>
-				<div class="controls">
-					<input id="reg_password" class="input-xlarge" placeholder="Password" type="password">
-					<span id="reg_password_info" class="help-inline"></span>
-				</div>
-			</div>
-		</div>
+    <div class="modal-header">
+        <a class="close" data-dismiss="modal">x</a>
+        <h3>注册</h3>
+    </div>
 
-		<div class="modal-footer">
-			<a href="#" class="btn" data-dismiss="modal">关闭</a> 
-			<a id="btn_reg_submit" href="#" class="btn btn-primary" type="submit">注册</a>
-		</div>
+	<form>
+        <div class="modal-body">
+        <div class="control-group">
+            <label class="control-label" for="reg_user_name" >用户名：</label>
+            <div class="controls">
+                <input id="reg_user_name" placeholder="Email" type="email">
+                <span id="reg_user_name_info" class="help-inline"></span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="reg_password">密码：</label>
+            <div class="controls">
+                <input id="reg_password" placeholder="Password" type="password">
+                <span id="reg_password_info" class="help-inline"></span>
+            </div>
+        </div>
+
+        </div>
 	</form>
+
+
+    <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal">关闭</a>
+        <a id="btn_reg_submit" href="#" class="btn btn-primary" type="submit">注册</a>
+    </div>
 
 </div>
 </template>

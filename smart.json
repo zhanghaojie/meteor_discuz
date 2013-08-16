@@ -1,6 +1,7 @@
 {
   "packages": {
     "router": {},
-    "user-status": {}
+    "user-status": {},
+    "iron-router": {}
   }
 }

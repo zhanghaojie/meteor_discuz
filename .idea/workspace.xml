@@ -2,50 +2,684 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9477245f-076c-4115-aadd-d9e3dd16b854" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/admin/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/admin/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/admin/demo.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/admin/editor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/admin/editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/admin/editor.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/jquery-htmlclean/jquery.htmlClean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/admin/left_sidebar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/admin/left_sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/admin/left_sidebar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/jquery-htmlclean/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/private.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/captcha/.npm/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/captcha/.npm/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/captcha/.npm/npm-shrinkwrap.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/modules/abc.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/autospider/autospider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/autospider/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/autospider/spiderable.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/jquery-ui-1.10.3.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/css/ui-lightness/jquery-ui-1.10.3.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/accordion/collapsible.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/accordion/custom-icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/accordion/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/accordion/fillspace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/accordion/hoverintent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/accordion/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/accordion/no-auto-height.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/accordion/sortable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/categories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/combobox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/custom-data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/folding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/images/jquery_32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/images/jqueryui_32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/images/sizzlejs_32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/images/transparent_1x1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/images/ui-anim_basic_16x16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/london.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/maxheight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/multiple-remote.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/multiple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/remote-jsonp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/remote-with-cache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/remote.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/autocomplete/xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/button/checkbox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/button/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/button/icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/button/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/button/radio.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/button/splitbutton.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/button/toolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/alt-field.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/animation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/buttonbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/date-formats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/date-range.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/dropdown-month-year.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/icon-trigger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/images/calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/inline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/jquery.ui.datepicker-ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/jquery.ui.datepicker-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/jquery.ui.datepicker-he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/jquery.ui.datepicker-zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/localization.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/min-max.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/multiple-calendars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/other-months.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/datepicker/show-week.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/demos.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/dialog/animated.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/dialog/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/dialog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/dialog/modal-confirmation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/dialog/modal-form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/dialog/modal-message.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/dialog/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/constrain-movement.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/cursor-style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/delay-start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/events.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/handle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/revert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/snap-to.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/sortable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/draggable/visual-feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/accepted-elements.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/images/high_tatras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/images/high_tatras2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/images/high_tatras2_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/images/high_tatras3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/images/high_tatras3_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/images/high_tatras4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/images/high_tatras4_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/images/high_tatras_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/photo-manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/propagation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/revert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/shopping-cart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/droppable/visual-feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/effect/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/effect/easing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/effect/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/images/calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/images/demo-config-on-tile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/images/demo-config-on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/images/demo-spindown-closed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/images/demo-spindown-open.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/images/icon-docs-info.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/images/pbar-ani.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/menu/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/menu/icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/menu/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/position/cycler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/position/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/position/images/earth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/position/images/flight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/position/images/rocket.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/position/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/progressbar/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/progressbar/images/pbar-ani.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/progressbar/indeterminate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/progressbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/progressbar/label.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/animate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/aspect-ratio.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/constrain-area.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/delay-start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/helper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/max-min.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/snap-to-grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/synchronous-resize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/textarea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/resizable/visual-feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/selectable/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/selectable/display-grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/selectable/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/selectable/serialize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/colorpicker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/hotelrooms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/multiple-vertical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/range-vertical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/range.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/rangemax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/rangemin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/side-scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/slider-vertical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/slider/steps.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/connect-lists-through-tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/connect-lists.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/delay-start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/display-grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/empty-lists.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/items.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/placeholder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/sortable/portlets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/spinner/currency.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/spinner/decimal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/spinner/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/spinner/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/spinner/latlong.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/spinner/overflow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/spinner/time.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/ajax/content1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/ajax/content2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/ajax/content3-slow.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/ajax/content4-broken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/bottom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/collapsible.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/manipulation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/mouseover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/sortable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tabs/vertical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/ajax/content1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/ajax/content2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/custom-animation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/custom-content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/custom-style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/images/st-stephens.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/images/tower-bridge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/tooltip/video-player.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/widget/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/demos/widget/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/autocomplete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/blind-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/bounce-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/button.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/clip-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/datepicker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/draggable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/drop-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/droppable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/explode-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/fade-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/fold-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/highlight-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/jQuery.widget.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/mouse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/position.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/progressbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/puff-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/pulsate-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/resizable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/scale-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/selectable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/shake-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/size-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/slide-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/slider.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/sortable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/spinner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/docs/transfer-effect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/external/globalize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/external/jshint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/external/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/external/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.button.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.resizable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.selectable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.accordion.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.autocomplete.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.button.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.core.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.datepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.dialog.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.menu.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.progressbar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.resizable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.selectable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.slider.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.spinner.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.tabs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/base/minified/jquery.ui.tooltip.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.button.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.resizable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.selectable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/jquery.ui.tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.accordion.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.autocomplete.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.button.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.core.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.datepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.dialog.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.menu.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.progressbar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.resizable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.selectable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.slider.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.spinner.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.tabs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/themes/ui-lightness/minified/jquery.ui.tooltip.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.accordion.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.autocomplete.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.button.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.core.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.datepicker.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.dialog.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.draggable.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.droppable.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-blind.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-bounce.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-clip.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-drop.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-explode.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-fade.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-fold.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-highlight.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-pulsate.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-scale.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-shake.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-slide.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect-transfer.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.effect.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.menu.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.mouse.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.position.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.progressbar.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.resizable.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.selectable.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.slider.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.sortable.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.spinner.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.tabs.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.tooltip.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui.widget.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery-ui-i18n.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ar-DZ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-cy-GB.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-en-AU.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-en-GB.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-en-NZ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fr-CA.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fr-CH.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-hy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-kk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-nl-BE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-nn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-rm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sr-SR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-tj.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-zh-HK.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/i18n/jquery.ui.datepicker-zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.draggable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.droppable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-blind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-bounce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-clip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-drop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-explode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-fade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-fold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-pulsate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-scale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-shake.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-slide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect-transfer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.effect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.progressbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.resizable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.selectable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.spinner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery-ui-i18n.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-af.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ar-DZ.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-az.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-be.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-bg.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-bs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ca.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-cs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-cy-GB.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-da.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-de.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-el.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-en-AU.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-en-GB.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-en-NZ.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-eo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-es.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-et.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-eu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-fa.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-fi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-fo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-fr-CA.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-fr-CH.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-fr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-gl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-he.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-hi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-hr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-hu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-hy.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-id.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-is.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-it.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ja.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ka.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-kk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-km.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ko.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ky.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-lb.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-lt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-lv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-mk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ml.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ms.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-nb.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-nl-BE.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-nl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-nn.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-no.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-pl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-pt-BR.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-pt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-rm.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ru.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-sk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-sl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-sq.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-sr-SR.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-sr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-sv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-ta.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-th.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-tj.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-tr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-uk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-vi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-zh-CN.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-zh-HK.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/i18n/jquery.ui.datepicker-zh-TW.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.accordion.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.autocomplete.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.button.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.datepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.dialog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.draggable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.droppable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-blind.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-bounce.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-clip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-drop.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-explode.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-fade.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-fold.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-highlight.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-pulsate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-scale.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-shake.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-slide.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect-transfer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.effect.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.menu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.progressbar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.resizable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.selectable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.slider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.sortable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.spinner.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/jquery-ui/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/.gitignore" afterPath="$PROJECT_DIR$/packages/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/admin.html" afterPath="$PROJECT_DIR$/client/templates/admin/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/admin.js" afterPath="$PROJECT_DIR$/client/templates/admin/admin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/approuter.js" afterPath="$PROJECT_DIR$/client/approuter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/build.html" afterPath="$PROJECT_DIR$/client/templates/admin/build.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/build.js" afterPath="$PROJECT_DIR$/client/templates/admin/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/build.less" afterPath="$PROJECT_DIR$/client/templates/admin/build.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/captcha/captcha.js" afterPath="$PROJECT_DIR$/packages/captcha/captcha.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/grid.html" afterPath="$PROJECT_DIR$/client/templates/grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/grid.js" afterPath="$PROJECT_DIR$/client/templates/grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/grid.less" afterPath="$PROJECT_DIR$/client/templates/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/lib/handlebars_helpers.js" afterPath="$PROJECT_DIR$/client/lib/handlebars_helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/chat.js" afterPath="$PROJECT_DIR$/client/chat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/chat.js" afterPath="$PROJECT_DIR$/server/chat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/footer.html" afterPath="$PROJECT_DIR$/client/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/header.html" afterPath="$PROJECT_DIR$/client/templates/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/header.js" afterPath="$PROJECT_DIR$/client/templates/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/index.less" afterPath="$PROJECT_DIR$/client/templates/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/jquery-ui/js/jquery-ui-1.10.3.js" afterPath="$PROJECT_DIR$/packages/jquery-ui/js/jquery-ui-1.10.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/jquery-ui/js/jquery-ui-1.10.3.min.js" afterPath="$PROJECT_DIR$/packages/jquery-ui/js/jquery-ui-1.10.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/methods.js" afterPath="$PROJECT_DIR$/server/methods.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/captcha/package.js" afterPath="$PROJECT_DIR$/packages/captcha/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/modules/package.js" afterPath="$PROJECT_DIR$/packages/modules/package.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/jquery-ui/package.js" afterPath="$PROJECT_DIR$/packages/jquery-ui/package.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/modules/plugin/plugin.js" afterPath="$PROJECT_DIR$/packages/modules/plugin/plugin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/release" afterPath="$PROJECT_DIR$/.meteor/release" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.json" afterPath="$PROJECT_DIR$/smart.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.lock" afterPath="$PROJECT_DIR$/smart.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/test.html" afterPath="$PROJECT_DIR$/client/templates/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/test.js" afterPath="$PROJECT_DIR$/client/templates/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/test.less" afterPath="$PROJECT_DIR$/client/templates/test.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="discuz_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376462745060" ignored="false" />
+    <file path="/Dummy.txt" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376608357899" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730763" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730763" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730764" ignored="false" />
@@ -56,16 +690,16 @@
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730765" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730765" ignored="false" />
     <file path="/error_modal.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371669337156" ignored="false" />
-    <file path="/header.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372464653523" ignored="false" />
+    <file path="/header.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376556844222" ignored="false" />
     <file path="/error_modal.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367119685540" ignored="false" />
-    <file path="/approuter.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372563264387" ignored="false" />
+    <file path="/approuter.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376610664078" ignored="false" />
     <file path="/threadlist.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371742786177" ignored="false" />
     <file path="/threadlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371940216367" ignored="false" />
     <file path="/error_404.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367394323681" ignored="false" />
-    <file path="/methods.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1369616289522" ignored="false" />
+    <file path="/methods.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376559380457" ignored="false" />
     <file path="/broadcast.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372040258169" ignored="false" />
     <file path="/forumlist.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372648770413" ignored="false" />
-    <file path="/a.dummy" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376006318086" ignored="false" />
+    <file path="/a.dummy" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376465201555" ignored="false" />
     <file path="/forumlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371669041400" ignored="false" />
     <file path="/postlist.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371942917996" ignored="false" />
     <file path="/smart.json" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371739292853" ignored="false" />
@@ -79,16 +713,16 @@
     <file path="/forums.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371942014520" ignored="false" />
     <file path="/threads.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371941723516" ignored="false" />
     <file path="/posts.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1371943624718" ignored="false" />
-    <file path="/chat.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372024200306" ignored="false" />
+    <file path="/chat.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376558982726" ignored="false" />
     <file path="/online_users.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372027200550" ignored="false" />
     <file path="/server.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372105478952" ignored="false" />
     <file path="/test.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376001302736" ignored="false" />
     <file path="/test.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375642982159" ignored="false" />
-    <file path="/admin.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372392519245" ignored="false" />
+    <file path="/admin.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376535539637" ignored="false" />
     <file path="/build.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376006034246" ignored="false" />
     <file path="/build.less" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375389603238" ignored="false" />
     <file path="/build.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375387903724" ignored="false" />
-    <file path="/package.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375918364496" ignored="false" />
+    <file path="/package.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376468263277" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/client/template/admin/build.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662521055" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/meteorite/packages/page-js-ie-support/page-js/test/chai.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1372662521056" ignored="false" />
     <file path="/grid.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1375387648691" ignored="false" />
@@ -134,6 +768,10 @@
     <file path="/left_sidebar.less" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376008281868" ignored="false" />
     <file path="/demo.less" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376010098005" ignored="false" />
     <file path="/editor.less" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376010520632" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/programs/server/npm/webapp/main/node_modules/useragent/static/user_agent.after.yaml" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376467093288" ignored="false" />
+    <file path="/spiderable.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376468003844" ignored="false" />
+    <file path="/autospider.js" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376471307669" ignored="false" />
+    <file path="/header.html" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1376550970885" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,17 +834,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="left_sidebar.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/left_sidebar.html">
+      <file leaf-file-name="approuter.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/approuter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="24" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
+            <state line="2" column="60" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/grid.html">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_events.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/process_events.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -214,26 +863,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="left_sidebar.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/left_sidebar.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="9" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3252818">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/demo.js">
+      <file leaf-file-name="broadcast.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/broadcast.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -241,46 +872,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left_sidebar.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/left_sidebar.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+            <state line="10" column="20" selection-start="197" selection-end="197" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/demo.less">
+      <file leaf-file-name="forumlist.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/templates/forumlist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="1" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+            <state line="6" column="6" selection-start="162" selection-end="162" vertical-scroll-proportion="0.12820514">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/editor.js">
+      <file leaf-file-name="forums.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/forums.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/posts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threads.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/threads.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editor.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/editor.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editor.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/editor.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -305,30 +945,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/templates/test.html" />
-        <option value="$PROJECT_DIR$/client/templates/admin/sidebar_nav.html" />
-        <option value="$PROJECT_DIR$/client/templates/admin/build.less" />
-        <option value="$PROJECT_DIR$/client/templates/admin/demo.html" />
-        <option value="$PROJECT_DIR$/client/templates/admin/editor.html" />
-        <option value="$PROJECT_DIR$/client/templates/admin/build.html" />
-        <option value="$PROJECT_DIR$/client/templates/admin/build.js" />
-        <option value="$PROJECT_DIR$/.meteor/local/build/programs/client/packages/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/packages/jquery-htmlclean/jquery.htmlClean.js" />
-        <option value="$PROJECT_DIR$/packages/jquery-htmlclean/package.js" />
-        <option value="$PROJECT_DIR$/.meteor/packages" />
-        <option value="$PROJECT_DIR$/client/templates/admin/left_sidebar.html" />
-        <option value="$PROJECT_DIR$/client/templates/admin/left_sidebar.less" />
-        <option value="$PROJECT_DIR$/client/templates/admin/left_sidebar.js" />
-        <option value="$PROJECT_DIR$/client/templates/admin/editor.less" />
-        <option value="$PROJECT_DIR$/client/templates/admin/demo.less" />
+        <option value="$PROJECT_DIR$/packages/modules/plugin/plugin.js" />
+        <option value="$PROJECT_DIR$/client/templates/footer.html" />
+        <option value="$PROJECT_DIR$/client/templates/admin/admin.html" />
+        <option value="$PROJECT_DIR$/client/templates/index.html" />
+        <option value="$PROJECT_DIR$/client/templates/index.less" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/programs/client/packages/accounts-ui/login_buttons.less.css" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/programs/client/packages/accounts-password.js" />
+        <option value="$PROJECT_DIR$/client/chat.js" />
+        <option value="$PROJECT_DIR$/client/templates/header.html" />
+        <option value="$PROJECT_DIR$/server/chat.js" />
+        <option value="$PROJECT_DIR$/client/templates/header.js" />
+        <option value="$PROJECT_DIR$/server/methods.js" />
+        <option value="$PROJECT_DIR$/client/approuter.js" />
+        <option value="$PROJECT_DIR$/collections/threads.js" />
+        <option value="$PROJECT_DIR$/collections/posts.js" />
+        <option value="$PROJECT_DIR$/collections/forums.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="321" />
+    <option name="x" value="220" />
     <option name="y" value="22" />
-    <option name="width" value="1119" />
+    <option name="width" value="1095" />
     <option name="height" value="790" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -425,43 +1065,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuz_meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-htmlclean" />
+              <option name="myItemId" value="collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,7 +1093,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".meteor" />
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,13 +1121,16 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/autospider" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/client/lib" />
@@ -528,12 +1139,15 @@
   <component name="RestClientSettings">
     <option name="LAST_HOST" value="http://localhost:3000/" />
   </component>
-  <component name="RunManager" selected="Node.js Remote Debug.debug">
+  <component name="RunManager" selected="Node.js.meteor">
     <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
       <node-js-remote-debug />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="NODE_PATH" value="$USER_HOME$/.meteor/tools/4010e5731d/lib/node_modules" />
+      </envs>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -554,15 +1168,24 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
+    <configuration default="false" name="meteor" type="NodeJSConfigurationType" factoryName="Node.js" singleton="true" path-to-node="$USER_HOME$/.meteor/tools/4010e5731d/bin/node" path-to-js-file="$USER_HOME$/.meteor/tools/4010e5731d/tools/meteor.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="NODE_PATH" value="$USER_HOME$/.meteor/tools/4010e5731d/lib/node_modules" />
+      </envs>
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
     <configuration default="false" name="debug" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug" singleton="true">
       <node-js-remote-debug local-path="$PROJECT_DIR$/.meteor/local/build" />
       <RunnerSettings RunnerId="NodeJS.debug" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Node.js.meteor-dev" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js Remote Debug.debug" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.meteor" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js Remote Debug.debug" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -616,20 +1239,40 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="321" y="22" width="1119" height="790" extended-state="0" />
-    <editor active="false" />
+    <frame x="220" y="22" width="1095" height="790" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25535882" sideWeight="0.2752976" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2221163" sideWeight="0.21428572" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25535882" sideWeight="0.72321427" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2221163" sideWeight="0.55803573" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.319403" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26041666" sideWeight="0.15169491" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27827382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22767857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16517857" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -643,7 +1286,7 @@
       <window_info id="JetGradle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1880597" sideWeight="0.7269907" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3482143" sideWeight="0.7269907" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -711,118 +1354,120 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp.js</url>
-          <line>461</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp.js</url>
-          <line>449</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+    <entry file="file://$PROJECT_DIR$/client/chat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" />
+        <state line="9" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/jquery-htmlclean/package.js">
+    <entry file="file://$PROJECT_DIR$/server/chat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" />
+        <state line="22" column="17" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="25" selection-start="3577" selection-end="3577" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="32" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/approuter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="60" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/build.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/left_sidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/left_sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/grid.html">
+    <entry file="file://$PROJECT_DIR$/client/process_events.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/demo.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/editor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/editor.js">
+    <entry file="file://$PROJECT_DIR$/client/broadcast.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/editor.less">
+    <entry file="file://$PROJECT_DIR$/client/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+        <state line="10" column="20" selection-start="197" selection-end="197" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/demo.less">
+    <entry file="file://$PROJECT_DIR$/collections/threads.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="1" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/left_sidebar.less">
+    <entry file="file://$PROJECT_DIR$/collections/posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="9" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3252818">
+        <state line="7" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/forums.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/forumlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="162" selection-end="162" vertical-scroll-proportion="0.12820514">
           <folding />
         </state>
       </provider>

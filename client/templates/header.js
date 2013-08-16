@@ -16,58 +16,77 @@ Template.tpl_header.helpers({
 //------------tpl-login--------------
 Template.tpl_login.events({
 	"click #btn_login": function(event, instance) {
-		event.preventDefault();
+        //event.preventDefault();
 		var userName = instance.find("#login_username").value;
-
 		var password = instance.find("#login_password").value;
-		//console.log(userName, password);
+
 		if (userName && password) {
 			Meteor.loginWithPassword(userName, password, function(error) {
-				if (error) {
-					if (error.reason === "User not found") {
-						Meteor.showErrorModal("用户不存在");
-						return;
-					}
-					console.log(error);
-                    Meteor.showErrorModal("用户名或者密码错误");
+                if (error) {
+                    Meteor.clearTimeout(instance["hidePopoverHandle"]);
+                    var $login = $(instance.find("#btn_login"));
+                    $login.tooltip("show");
+
+                    var handle = Meteor.setTimeout(function() {
+                        $login.tooltip("hide");
+                    }, 3000);
+
+                    instance["hidePopoverHandle"] = handle;
 				}
 			})
 		}
 		else {
 			if (!userName) {
-                Meteor.showErrorModal("请输入用户名");
-				return ;
-			}
-			if (!password) {
-                Meteor.showErrorModal("请输入密码");
-				return ;
+                Meteor.clearTimeout(instance["hidePopoverHandle1"]);
+                var $loginUserName = $(instance.find("#login_username"));
+                $loginUserName.tooltip("show");
+
+                var handle = Meteor.setTimeout(function() {
+                    $loginUserName.tooltip("hide");
+                }, 3000);
+
+                instance["hidePopoverHandle1"] = handle;
+
+			} else if (!password) {
+                Meteor.clearTimeout(instance["hidePopoverHandle1"]);
+                var $loginPassword = $(instance.find("#login_password"));
+                $loginPassword.tooltip("show");
+
+                var handle = Meteor.setTimeout(function() {
+                    $loginPassword.tooltip("hide");
+                }, 3000);
+
+                instance["hidePopoverHandle1"] = handle;
 			}
 		}
-
-	},
-
-	"blur #login_username": function(event) {
-		var target = event.currentTarget;
-		var value = target.value;
-		
-		if (value) {
-			var parentControl =$(target).closest("div.control-group");
-			if (target.validity.valid) {
-				parentControl.addClass("success");
-			}
-			else {
-				parentControl.addClass("error");
-			}
-		}
-	},
-
-	"focus #login_username": function(event) {
-		var target = event.currentTarget;
-		var parentControl =$(target).closest("div.control-group");
-		parentControl.removeClass("success");
-		parentControl.removeClass("error");
+        return false;
 	}
 })
+
+Template.tpl_login.rendered = function() {
+    var userName = this.find("#login_username");
+    var password = this.find("#login_password");
+    var btnLogin = this.find("#btn_login");
+
+    $(btnLogin).tooltip({
+        title: "用户名或密码错误",
+        //content: "用户名或密码错误",
+        placement: "bottom",
+        trigger: "manual"
+    })
+
+    $(userName).tooltip({
+        title: "用户名不能为空",
+        placement: "bottom",
+        trigger: "manual"
+    })
+
+    $(password).tooltip({
+        title: "密码不能为空",
+        placement: "bottom",
+        trigger: "manual"
+    })
+}
 
 //------------tpl_register--------------
 Template.tpl_register.events({
@@ -79,7 +98,7 @@ Template.tpl_register.events({
 		var password = passwordInput.value;
 		
 		var options = {
-			username: userName,
+			email: userName,
 			password: password
 		}
 

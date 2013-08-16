@@ -23,7 +23,7 @@ Meteor.publish("chat", function(userId) {
     self.ready();
 
     self.onStop(function() {
-        chatHandle.stop();
+        chatHandle && chatHandle.stop();
     })
 })
 

@@ -2,7 +2,8 @@
 
 Meteor.methods({
 	isUserExisted: function(userName) {
-		var cursor = Meteor.users.find({username: userName});
+        console.log(userName);
+		var cursor = Meteor.users.find({"emails.address": userName});
 		if (cursor.count() > 0) {
 			return true;
 		}

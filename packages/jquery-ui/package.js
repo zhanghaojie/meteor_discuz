@@ -3,7 +3,9 @@ Package.describe({
 })
 
 Package.on_use(function(api) {
-	api.add_files(["js/jquery-ui-1.10.3.js", 'css/ui-lightness/jquery-ui-1.10.3.css'], "client");
+	api.use("jquery", "client");
+	api.add_files(["js/jquery-ui-1.10.3.js"], "client");
+	/*
 	api.add_files(["css/ui-lightness/images/ui-icons_ffffff_256x240.png",
 			"css/ui-lightness/images/ui-icons_ffd27a_256x240.png",
 			"css/ui-lightness/images/ui-icons_ef8c08_256x240.png",
@@ -19,4 +21,5 @@ Package.on_use(function(api) {
 			"css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png",
 			"css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
 			"css/ui-lightness/images/animated-overlay.gif"], "client");
+*/
 })
