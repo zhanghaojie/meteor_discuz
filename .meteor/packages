@@ -12,4 +12,4 @@ accounts-base
 handlebars
 captcha
 jquery-ui
-iron-router
+router

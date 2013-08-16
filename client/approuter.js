@@ -1,9 +1,5 @@
 
-Router.map(function() {
-    this.route("home", {path: "/", waitOn: Meteor.subscribe()})
-})
 
-/*
 Meteor.Router.add({
     '/': 'tpl_index',
 
@@ -55,7 +51,6 @@ Meteor.Router.add({
         and: function() {}
     }
 })
-*/
 
 
 
