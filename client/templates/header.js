@@ -60,7 +60,11 @@ Template.tpl_login.events({
 			}
 		}
         return false;
-	}
+	},
+
+    "click #btn_register": function(event, instance) {
+    	showDialog("tpl_register");
+    }
 })
 
 Template.tpl_login.rendered = function() {
@@ -115,6 +119,7 @@ Template.tpl_register.events({
 	},
 	"blur #reg_user_name": function(event) {
 		var target = event.currentTarget;
+		console.log(target);
 		var value = target.value;
 		
 		if (value) {

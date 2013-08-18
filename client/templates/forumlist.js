@@ -1,16 +1,37 @@
 
+var ForumController = RouteController.extend({
+    template: "tpl_forumlist",
+    waitOn: [
+        Meteor.subscribe("forums"),
+        Meteor.subscribe("forum-group")
+    ],
+    onBeforeRun: function() {
+        this.forumGroupCollection = CollectionManager.create("forum_group");
+        this.forumCollection = CollectionManager.create("forums");
+    },
+    data: function() {
+        var self = this;
+        return {
+            forumGroup: function() {
+                return self.forumGroupCollection.find();
+            },
+            forums: function(gid) {
+                return self.forumCollection.find({gid:gid});
+            }
+        }
+    }
+})
+
+Router.map(function() {
+    this.route("forums", {
+        path: "/forums",
+        controller: ForumController
+    })
+})
+
 
 Template.tpl_forumlist.helpers({
-    forums: function(groupId) {
-        var cursor = forumCollection.find({join_group: groupId});
-        return cursor;
-    },
 
-    forumGroup: function() {
-        var cursor = forumCollection.find(
-            {group: {$exists:true}});
-        return cursor;
-    }
 })
 
 Template.tpl_forumlist.events ({

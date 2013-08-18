@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-
+/*
 broadcastCollection = new Meteor.Collection("broadcast");
 
 Deps.autorun(function() {
@@ -19,3 +19,4 @@ broadcastCollection.find().observe({
     }
 })
 
+*/

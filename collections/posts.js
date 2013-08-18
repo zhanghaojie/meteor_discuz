@@ -6,6 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
+/*
 postCollection = new Meteor.Collection("posts");
 
 Meteor.methods({
@@ -17,3 +18,4 @@ Meteor.methods({
         });
     }
 })
+    */

@@ -12,14 +12,14 @@ Meteor.methods({
 		}
 	},
 	isForumExisted: function(forumId) {
-		var cursor = forumCollection.find({_id: forumId});
+		var cursor = CollectionManager.create("forums").find({_id: forumId});
 		if (cursor.count() > 0) {
 			return true;
 		}
 		return false;
 	},
 	isThreadExisted: function(threadId) {
-		var cursor = threadCollection.find({_id: threadId});
+		var cursor = CollectionManager.create("threads").find({_id: threadId});
 		if (cursor.count() > 0) {
 			return true;
 		}

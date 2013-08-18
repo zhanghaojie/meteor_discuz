@@ -4,15 +4,13 @@
 </head>
 
 <body>
-{{renderPage}}
+
 </body>
 
-<template name="tpl_index">
+<template name="layout">
     {{> tpl_header}}
     <div id="content" class="container">
-        {{> tpl_forumlist}}
+        {{yield}}
     </div>
     {{> tpl_footer}}
-    {{> tpl_register}}
-    {{> tpl_error_modal}}
 </template>

@@ -1,3 +1,20 @@
+Router.map(function() {
+    this.route("posts", {
+        path: "/thread/:id",
+        controller: "PostsController"
+    })
+})
+
+PostsController = RouteController.extend({
+    template: "tpl_viewthread",
+    waitOn: function() {
+        var self = this;
+        return [
+            Meteor.subscribe("posts", self.params.id)
+        ]
+    }
+})
+
 
 Template.tpl_viewthread.helpers({
     isThreadExisted: function() {

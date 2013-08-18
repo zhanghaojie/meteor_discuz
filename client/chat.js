@@ -6,6 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
+/*
 chatCollection = new Meteor.Collection("chat");
 
 Deps.autorun(function() {
@@ -13,3 +14,4 @@ Deps.autorun(function() {
         Meteor.subscribe("chat", Meteor.userId());
     }
 })
+*/

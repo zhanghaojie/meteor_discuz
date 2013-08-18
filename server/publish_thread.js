@@ -1,4 +1,4 @@
-
+/*
 Meteor.publish("forum-threads", function(forumId, limit) {
     var cursor = threadCollection.find({"fid": forumId},{limit: limit, sort:{created_time: -1}});
     return cursor;
@@ -22,3 +22,4 @@ threadCollection.allow({
 		return true;
 	}
 })
+    */

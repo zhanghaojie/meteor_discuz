@@ -12,4 +12,6 @@ accounts-base
 handlebars
 captcha
 jquery-ui
-router
+iron-router
+collection-manager
+jquery-validation

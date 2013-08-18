@@ -1,5 +1,5 @@
 
-
+/*
 Meteor.publish("all-forums", function() {
 	var cursor = forumCollection.find();
 	return cursor;
@@ -13,5 +13,6 @@ forumCollection.allow({
 	},
 	remove: function() {
 		return true;
-	} 
+	}
 })
+*/

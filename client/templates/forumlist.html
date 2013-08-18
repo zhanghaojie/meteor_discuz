@@ -1,20 +1,21 @@
 <template name="tpl_forumlist">
 {{#each forumGroup}}
-<legend>{{name}}</legend>
-<div class="thumbnails">
-	{{#each forums group}} 
-		{{> tpl_forum_item}}
-	{{/each}}
-</div>
+    <legend>{{name}}</legend>
+    <div class="thumbnails">
+        {{#each ../forums _id}}
+        {{> tpl_forum_item}}
+        {{/each}}
+    </div>
 {{/each}}
 </template>
 
+
 <template name="tpl_forum_item">
-<div class="span4">
-	<div class="well thumbnail">
-		<div class="text-center">
-			<a href="/forum/{{_id}}"><img src="forum_icon.jpg"> <strong>{{name}}</strong></a>
-		</div>
-	</div>
-</div>
+    <div class="span4">
+        <div class="well thumbnail">
+            <div class="text-center">
+                <a href="{{pathFor 'forum' id=_id}}"><img src={{image_url}}> <strong>{{name}}</strong></a>
+            </div>
+        </div>
+    </div>
 </template>

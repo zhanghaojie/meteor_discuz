@@ -7,5 +7,5 @@
  */
 
 
-forumCollection = new Meteor.Collection("forums");
+//forumCollection = new Meteor.Collection("forums");
 

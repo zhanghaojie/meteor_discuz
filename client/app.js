@@ -1,4 +1,4 @@
-
+/*
 Meteor.users.find({ "profile.online": true }).observe({
     added: function(doc) {
         //console.log(doc);
@@ -26,5 +26,5 @@ Deps.autorun(function() {
 		Meteor.subscribe("thread-posts", currentThreadId, Session.get("postListLimit"));
 	}
 })
-
+*/
 

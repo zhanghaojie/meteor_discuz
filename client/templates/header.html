@@ -20,7 +20,6 @@
                     {{> tpl_login}}
                     {{/if}}
                 </div>
-
 			</div>
 		</div>
 	</div>
@@ -28,12 +27,12 @@
 </template>
 
 <template name="tpl_login">
-<form action="#" class="navbar-form">
-	<input class="input-medium" id="login_username" placeholder="Email" type="email"/>
-	<input class="input-medium" id="login_password" placeholder="Password" type="password"/>
-	<button id="btn_login" class="btn btn-small">登陆</button>
-	<button id="btn_register" class="btn btn-small" href="#dlg_register" data-toggle="modal" >注册</button>
-</form>
+    <form action="#" class="navbar-form">
+        <input class="input-medium" id="login_username" placeholder="Email" type="email"/>
+        <input class="input-medium" id="login_password" placeholder="Password" type="password"/>
+        <button id="btn_login" class="btn btn-small">登陆</button>
+        <button id="btn_register" class="btn btn-small" data-toggle="modal" data-target="#dlg_register">注册</button>
+    </form>
 </template>
 
 
@@ -63,8 +62,7 @@
 
         </div>
 	</form>
-
-
+    
     <div class="modal-footer">
         <a href="#" class="btn" data-dismiss="modal">关闭</a>
         <a id="btn_reg_submit" href="#" class="btn btn-primary" type="submit">注册</a>

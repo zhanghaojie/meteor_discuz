@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-
+/*
 threadCollection = new Meteor.Collection("threads");
 
 Meteor.methods({
@@ -14,3 +14,4 @@ Meteor.methods({
         threadCollection.insert(args);
     }
 })
+    */

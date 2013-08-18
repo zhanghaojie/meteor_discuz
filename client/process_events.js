@@ -1,4 +1,4 @@
-
+/*
 Meteor.broadcast = {};
 Meteor.broadcast.handler = {};
 
@@ -12,3 +12,4 @@ eventHandler.invite = function(from, to, args) {
 eventHandler.alert = function(from, to, args) {
 	alert(args);
 }
+    */

@@ -1,5 +1,5 @@
 
-
+/*
 Meteor.Router.add({
     '/': 'tpl_index',
 
@@ -52,6 +52,7 @@ Meteor.Router.add({
     }
 })
 
+*/
 
 
 
