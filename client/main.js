@@ -12,3 +12,10 @@ Meteor.startup(function() {
 */
 
 
+Meteor.startup(function() {
+	$.validator.setDefaults({
+		errorClass: "validate-error",
+		validClass: "validate-success",
+		errorElement: "span"
+	})
+})

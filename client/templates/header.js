@@ -1,4 +1,8 @@
 
+Template.tpl_header.rendered = function() {
+
+}
+
 Template.tpl_header.helpers({
     lang: function(key) {
         var curLang = Meteor.currentLanguage;
@@ -48,7 +52,7 @@ Template.tpl_login.events({
                 instance["hidePopoverHandle1"] = handle;
 
 			} else if (!password) {
-                Meteor.clearTimeout(instance["hidePopoverHandle1"]);
+                Meteor.clearTimeout(instance["hidePopoverHandle2"]);
                 var $loginPassword = $(instance.find("#login_password"));
                 $loginPassword.tooltip("show");
 
@@ -56,7 +60,7 @@ Template.tpl_login.events({
                     $loginPassword.tooltip("hide");
                 }, 3000);
 
-                instance["hidePopoverHandle1"] = handle;
+                instance["hidePopoverHandle2"] = handle;
 			}
 		}
         return false;
@@ -94,6 +98,7 @@ Template.tpl_login.rendered = function() {
 
 //------------tpl_register--------------
 Template.tpl_register.events({
+
 	"click #btn_reg_submit": function(event, instance) {
 		var userNameInput = instance.find("#reg_user_name");
 		var passwordInput = instance.find("#reg_password");
@@ -117,49 +122,50 @@ Template.tpl_register.events({
 			}
 		})
 	},
-	"blur #reg_user_name": function(event) {
+
+	"blur #reg_user_name": function(event, instance) {
 		var target = event.currentTarget;
-		console.log(target);
 		var value = target.value;
-		
-		if (value) {
-			var parentControl =$(target).closest("div.control-group");
-			if (verifyEmail(value)) {
-				Meteor.call("isUserExisted", value, function(error, result) {
-					if (!error) {
-						if (result) {
-							$("#reg_user_name_info").text("用户已存在！");
-							parentControl.addClass("error");
-						}
-						else {
-							$("#reg_user_name_info").text("用户可用！");
-							parentControl.addClass("success");
-
-						}
-					}
-					else {
-						// TODO  服务器返回错误
-					}
-				})
-			}
-			else {
-				$("#reg_user_name_info").text("用户名格式不正确");
-				parentControl.addClass("error");
-			}
-		}
-	},
-
+        var parentControl =$(target).closest("div.control-group");
+        parentControl.removeClass("error");
+        parentControl.removeClass("success");
+		if ($(target).valid()) {
+            var validator = $(instance.find("form")).validate();
+            Meteor.call("isUserExisted", value, function(error, result) {
+                if (!error) {
+                    if (result) {
+                        validator.showErrors({username: "用户名已注册"});
+                        parentControl.addClass("error");
+                    }
+                    else {
+                        validator.showErrors({username: "用户名可用"});
+                        parentControl.addClass("success");
+                    }
+                }
+                else {
+                    // TODO  服务器返回错误
+                }
+            })
+	    }
+        else {
+            var parentControl =$(target).closest("div.control-group");
+            parentControl.addClass("error");
+        }
+    }
+/*
 	"focus #reg_user_name": function(event) {
 		var target = event.currentTarget;
 		var parentControl =$(target).closest("div.control-group");
 		parentControl.removeClass("success");
 		parentControl.removeClass("error");
 	}
+	*/
 })
 
-function verifyEmail(email) {
-	if (email.match(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/)) {
-		return true;
-	}
-	return false;
+Template.tpl_register.rendered = function() {
+    //var form = this.find("form");
+    //invalidator = $(form).validate();
+    //invalidator.showErrors();
+    //console.log(invalidator.invalidElements());
 }
+

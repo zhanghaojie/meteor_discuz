@@ -24,5 +24,9 @@ Meteor.methods({
 			return true;
 		}
 		return false;
+	},
+	test: function(doc) {
+		//var testCollection = CollectionManager.create("test");
+		return "doc";
 	}
 })

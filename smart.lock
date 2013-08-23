@@ -4,7 +4,8 @@
     "basePackages": {
       "router": {},
       "user-status": {},
-      "iron-router": {}
+      "iron-router": {},
+      "bootstrap-themes": {}
     },
     "packages": {
       "router": {
@@ -21,6 +22,11 @@
         "git": "https://github.com/EventedMind/meteor-iron-router.git",
         "tag": "v0.5.3",
         "commit": "f737b04106a226c0f8772b9112673a9be49406d7"
+      },
+      "bootstrap-themes": {
+        "git": "https://github.com/eprochasson/meteor-bootstrap-themes",
+        "tag": "v0.0.5",
+        "commit": "7b711bd22646db199662bc05fea1df6ad5cc4c22"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",

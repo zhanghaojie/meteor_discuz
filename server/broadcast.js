@@ -12,6 +12,8 @@ Meteor.publish("broadcast", function() {
 
 })
 */
+
+/*
 broadcastCollection = new Meteor.Collection("broadcast");
 
 Meteor.publish("broadcast", function() {
@@ -48,6 +50,7 @@ Meteor.methods({
         return result;
 	}
 })
+*/
 
 
 

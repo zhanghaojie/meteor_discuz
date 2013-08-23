@@ -2,6 +2,7 @@
   "packages": {
     "router": {},
     "user-status": {},
-    "iron-router": {}
+    "iron-router": {},
+    "bootstrap-themes": {}
   }
 }

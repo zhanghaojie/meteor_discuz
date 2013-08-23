@@ -72,8 +72,13 @@ threadCollection.allow({
 var postCollection = CollectionManager.create("posts");
 // fid:   forum  _id
 Meteor.publish("posts", function(tid) {
-    var cursor = postCollection.find({tid: tid});
-    return cursor;
+    if (this.userId) {
+        var cursor = postCollection.find({tid: tid});
+        return cursor;
+    }
+    else {
+        throw new Error("a-------");
+    }
 })
 
 postCollection.allow({

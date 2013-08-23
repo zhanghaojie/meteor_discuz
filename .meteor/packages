@@ -4,7 +4,6 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-bootstrap
 less
 accounts-ui
 accounts-password
@@ -15,3 +14,5 @@ jquery-ui
 iron-router
 collection-manager
 jquery-validation
+bootstrap-themes
+channel

@@ -32,13 +32,3 @@ if (!forumGroup.find().count()) {
     forum.insert({name: "论坛3005", image_url: "forum_icon.jpg", gid: group3._id, created_time: (new Date).getTime(), order: 0});
     forum.insert({name: "论坛3006", image_url: "forum_icon.jpg", gid: group3._id, created_time: (new Date).getTime(), order: 0});
 }
-/*
-if (!threadCollection.find().count())
-{
-	threadCollection.insert(
-		{fid: "9GpZHWrZtbfCncsdt",
-		 author_id: "fZBSsijuSjepxAWwi",
-		 author: ""
-		})
-}
-*/
