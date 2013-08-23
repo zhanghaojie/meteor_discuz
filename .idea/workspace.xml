@@ -2,37 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9477245f-076c-4115-aadd-d9e3dd16b854" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bootstrap_theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/channel/channel_client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/channel/channel_client_tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/channel/channel_server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/channel/channel_server_tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/jquery-validation/messages_zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/channel/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/.gitignore" afterPath="$PROJECT_DIR$/packages/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/broadcast.js" afterPath="$PROJECT_DIR$/server/broadcast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common.js" afterPath="$PROJECT_DIR$/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/lib/common.js" afterPath="$PROJECT_DIR$/client/lib/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/header.html" afterPath="$PROJECT_DIR$/client/templates/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/header.js" afterPath="$PROJECT_DIR$/client/templates/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/header.less" afterPath="$PROJECT_DIR$/client/templates/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/methods.js" afterPath="$PROJECT_DIR$/server/methods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/jquery-validation/package.js" afterPath="$PROJECT_DIR$/packages/jquery-validation/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publishs.js" afterPath="$PROJECT_DIR$/server/publishs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.json" afterPath="$PROJECT_DIR$/smart.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.lock" afterPath="$PROJECT_DIR$/smart.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/test.html" afterPath="$PROJECT_DIR$/client/templates/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/test.js" afterPath="$PROJECT_DIR$/client/templates/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/test_data.js" afterPath="$PROJECT_DIR$/server/test_data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/bootstrap_superhero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/stuff.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/upload_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/user_tables.ods" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/设计书.odt" afterPath="" />
     </list>
     <ignored path="discuz_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1377132235886" ignored="false" />
+    <file path="/Dummy.txt" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1377265948028" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730763" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730763" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="9477245f-076c-4115-aadd-d9e3dd16b854" time="1367110730764" ignored="false" />
@@ -239,9 +217,7 @@
         <entry file="file://$PROJECT_DIR$/packages/channel/channel_server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="157" column="0" selection-start="4018" selection-end="4018" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#3450#4016#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -276,7 +252,7 @@
       <file leaf-file-name="channel_client.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/packages/channel/channel_client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="876" selection-end="876" vertical-scroll-proportion="0.2857143">
+            <state line="46" column="0" selection-start="876" selection-end="876" vertical-scroll-proportion="0.028985508">
               <folding />
             </state>
           </provider>
@@ -401,7 +377,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -468,6 +443,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -486,11 +462,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -632,9 +608,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.20583941" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.28029197" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.529927" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.719708" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.319403" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26041666" sideWeight="0.15169491" order="11" side_tool="true" content_ui="tabs" />
@@ -809,9 +785,7 @@
     <entry file="file://$PROJECT_DIR$/packages/channel/channel_server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="157" column="0" selection-start="4018" selection-end="4018" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#3450#4016#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +798,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/channel/channel_client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="876" selection-end="876" vertical-scroll-proportion="0.2857143">
+        <state line="46" column="0" selection-start="876" selection-end="876" vertical-scroll-proportion="0.028985508">
           <folding />
         </state>
       </provider>

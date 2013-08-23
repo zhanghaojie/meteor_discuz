@@ -1,4 +1,0 @@
-文本编辑器: https://github.com/mindmup/bootstrap-wysiwyg
-impress 超炫 3d css库 https://github.com/bartaz/impress.js
-选择框： https://github.com/harvesthq/chosen 
-翻转  https://github.com/hakimel/Kort
